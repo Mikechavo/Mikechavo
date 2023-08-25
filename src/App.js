@@ -7,6 +7,7 @@ import arrow from './icons/arrow.png';
 
 const App = () => {
   return (
+    
     <div className="App">
       <div class="background-animation"></div>
       <header className="App-header">
