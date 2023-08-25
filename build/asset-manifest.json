@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Mikechavo.github.io/static/css/main.44f4efb9.css",
-    "main.js": "/Mikechavo.github.io/static/js/main.ec083207.js",
-    "static/js/787.1ed0c42c.chunk.js": "/Mikechavo.github.io/static/js/787.1ed0c42c.chunk.js",
-    "static/media/emailLogo.png": "/Mikechavo.github.io/static/media/emailLogo.123e713e17bf086e35a6.png",
-    "static/media/arrow.png": "/Mikechavo.github.io/static/media/arrow.e189e1c7b4c44d98cdb5.png",
-    "static/media/linkedin.png": "/Mikechavo.github.io/static/media/linkedin.c98fb3b64eecd80d2ca1.png",
-    "index.html": "/Mikechavo.github.io/index.html",
-    "main.44f4efb9.css.map": "/Mikechavo.github.io/static/css/main.44f4efb9.css.map",
-    "main.ec083207.js.map": "/Mikechavo.github.io/static/js/main.ec083207.js.map",
-    "787.1ed0c42c.chunk.js.map": "/Mikechavo.github.io/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/Mikechavo/static/css/main.44f4efb9.css",
+    "main.js": "/Mikechavo/static/js/main.90159de3.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Mikechavo/static/js/787.1ed0c42c.chunk.js",
+    "static/media/emailLogo.png": "/Mikechavo/static/media/emailLogo.123e713e17bf086e35a6.png",
+    "static/media/arrow.png": "/Mikechavo/static/media/arrow.e189e1c7b4c44d98cdb5.png",
+    "static/media/linkedin.png": "/Mikechavo/static/media/linkedin.c98fb3b64eecd80d2ca1.png",
+    "index.html": "/Mikechavo/index.html",
+    "main.44f4efb9.css.map": "/Mikechavo/static/css/main.44f4efb9.css.map",
+    "main.90159de3.js.map": "/Mikechavo/static/js/main.90159de3.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Mikechavo/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.44f4efb9.css",
-    "static/js/main.ec083207.js"
+    "static/js/main.90159de3.js"
   ]
 }
