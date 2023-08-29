@@ -35,6 +35,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  
 }
 
 .App-link {
@@ -203,3 +204,23 @@
     .buttons:hover {
       background-position: 150px;
     }
+    .contactButton {
+      color: white;
+      font-size: calc(10px + 2vmin);
+    }
+    .contactButton:hover {
+      background-color: black;
+    }
+
+    .Skills {
+      display:flexbox;
+     flex-wrap: wrap;
+     /* border: 5px solid #555; */
+    }
+  .Skills img {
+    width: 80px; /* Adjust the width as needed */
+    height: 80px; /* Adjust the height as needed */
+    max-width: 100%; 
+  }
+
+  
