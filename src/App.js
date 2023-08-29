@@ -108,15 +108,16 @@ const handleClick = (index) => {
       <div className="Project">
         <h3>Tic-Tac-Toe</h3>
         <p>This is a Web game for two players on the same screen taking turns.</p>
-        <body>
+      <div className="game-container">
         <div className="box">
           {squares.map((value, index) => (
             <Square key={index} value={value} onClick={() => handleClick(index)} />
           ))}
         </div>
+        </div>
         <div className="status">{status}</div>
         <button className="buttons" onClick={refresh}>Play again</button>
-        </body>
+        
 
       </div>
       <div className="Project">
@@ -138,8 +139,9 @@ const handleClick = (index) => {
     </section>
 
       <h2>Contact Me</h2>
+      <div className='Contact'>
       <ContactMe />
-
+      </div>
     </div>
   );
 }
