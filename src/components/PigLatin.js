@@ -58,6 +58,7 @@ const PigLatin = () => {
     <div className="page-container">
       <div className="body-container">
         <h1>Pig Latin Translator</h1>
+        <p>Translates the user input into Pig Latin.</p>
         <div className="input-section">
           <h4>Enter phrase to be translated:</h4>
           <input

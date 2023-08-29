@@ -34,7 +34,7 @@ const handleClick = (index) => {
     
     const winner = theWinner(squareUpdate)
       if (winner) {
-        alert(`winner: ${winner}`)
+        alert(`The Winner is: ${winner} Player`)
       } else if (squareUpdate.every((square) => square !== null)) {
       alert("Draw!! Please restart the game.") 
       } else if (squareUpdate.every((square) => square === winner)) {
@@ -69,10 +69,10 @@ const handleClick = (index) => {
  let status 
  let winner = theWinner(squares)
  if (winner) {
-  status = `winner: ${winner}`
+  status = `The Winner is: ${winner} Player`
   
  } else {
-  status = `Next player: ${xNext ? "X" : "O"}`
+  status = `Player ${xNext ? "X" : "O"} turn`
  }
  
 //==>
@@ -109,12 +109,12 @@ const handleClick = (index) => {
       <Journey />
       </div>
 
-      <h2>Projects</h2>
+      <h1>Projects</h1>
       {/* <Projects /> */}
 
       <section id= 'Projects1'>
       <div className="Project">
-        <h3>Tic-Tac-Toe</h3>
+        <h2>Tic-Tac-Toe</h2>
         <p>This is a Web game for two players on the same screen taking turns.</p>
       <div className="game-container">
         <div className="box">
@@ -129,8 +129,7 @@ const handleClick = (index) => {
 
       </div>
       <div className="Project">
-        <h3>Pig Latin Translator</h3>
-        <p>Translates the user input into Pig Latin.</p>
+       
             <PigLatin />
       
       </div>
