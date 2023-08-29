@@ -82,29 +82,37 @@ const handleClick = (index) => {
 
   return (
 
+    
     <div className="App">
       <div class="background-animation"></div>
       <header className="App-header">
         <a>
           <img id="myimage" src={ai_image} alt="AI picture of me"></img>
         </a>
-        <h1>Hi. I'm Mike.</h1>
-        <nav >
-          <a className='contactButton' href="#Contact">Contact Me</a>
+        <nav>
+          <p>
+          <a className='contactButton' href="#Journey">About Me |</a>
+          <a className='contactButton' href="#Projects1"> Projects |</a>
+          <a className='contactButton' href="#Contact">Contact Me </a>
+          </p>
         </nav>
+        <h1>Hi. I'm Mike.</h1>
+        
         <h1>I'm a Full Stack Developer</h1>
       </header>
 
       <h2>Skills</h2>
       <Skill />
 
+      <div id='Journey'>
       <h2>My Software Development Journey</h2>
       <Journey />
+      </div>
 
       <h2>Projects</h2>
       {/* <Projects /> */}
 
-      <section>
+      <section id= 'Projects1'>
       <div className="Project">
         <h3>Tic-Tac-Toe</h3>
         <p>This is a Web game for two players on the same screen taking turns.</p>
