@@ -310,8 +310,11 @@
   }
 
   .passGen {
-    font-family: 'Chelsea Market', cursive;
-    color: #f80e0a;
-    font-size: 40px;
+    font-family: American Typewriter, serif;
+    font-style: italic;
+    color: #fcf9f9;
+    font-size: 30px;
     
   }
+
+  

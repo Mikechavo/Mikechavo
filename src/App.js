@@ -136,11 +136,11 @@ const handleClick = (index) => {
       </div>
 
       <div className="Project">
-        <h3>Password Generator</h3>
+        <h2>Password Generator</h2>
         <p>Generates a random password using an existing password or phrase that's easy for you to remember.</p>
         <PasswordGen />
         </div>
-        
+
       <div className="Project">
         <h3>Ruby Text Based Game</h3>
         <p>Text Based game using Ruby.</p>
