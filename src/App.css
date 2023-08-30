@@ -309,3 +309,9 @@
     align-items: center;
   }
 
+  .passGen {
+    font-family: 'Chelsea Market', cursive;
+    color: #f80e0a;
+    font-size: 40px;
+    
+  }
