@@ -44,10 +44,10 @@ const PasswordGen = () => {
         type="text"
         value={userInput}
         onChange={handleInputChange}
-        placeholder="Enter your input"
+        placeholder="Existing PW or Phrase"
       />
       <div>
-      <button className="buttons" onClick={generateRandomOutput}>Generate Random Output</button>
+      <button className="buttons" onClick={generateRandomOutput}>Generate Random Password</button>
       </div>
       <button className="buttons" onClick={clearInput}>Clear</button>
       
