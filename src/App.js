@@ -8,6 +8,7 @@ import './App.css';
 import ai_image from './icons/ai_image.jpg';
 // ====>
 import Square from './components/Square'
+import PasswordGen from './components/PasswordGen'
 
 
 
@@ -133,6 +134,13 @@ const handleClick = (index) => {
             <PigLatin />
       
       </div>
+
+      <div className="Project">
+        <h3>Password Generator</h3>
+        <p>Generates a random password using an existing password or phrase that's easy for you to remember.</p>
+        <PasswordGen />
+        </div>
+        
       <div className="Project">
         <h3>Ruby Text Based Game</h3>
         <p>Text Based game using Ruby.</p>
@@ -142,7 +150,8 @@ const handleClick = (index) => {
         <h3>Blog Post Application</h3>
         <p>Application where the user can see all blog posts.</p>
         <a href="https://github.com/learn-academy-2023-echo/full-stack-rails-fullstack-mc-pj"><button className="buttons">Source code</button></a>
-      </div>
+        </div>
+        
     </section>
 
       <h2>Contact Me</h2>
