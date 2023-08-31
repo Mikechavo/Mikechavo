@@ -14,7 +14,8 @@ import ruby_logo from '../icons/ruby_logo.jpeg';
 const Skill = () => {
   return (
    
-    <section className="Skills">
+    <div className="container">
+    <div className="Skills">
      
 
       <div border="1">
@@ -35,8 +36,9 @@ const Skill = () => {
         <img src={c_logo}></img>
         <img src={github}></img>
       </div>
+      </div>
       {/* <img id="myimage" src="https://mikechavo.carrd.co/assets/images/image02.jpg?v=8cf942e5" alt="AI picture of me"></img> */}
-    </section>
+    </div>
   )
 }
 
