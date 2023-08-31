@@ -7,25 +7,14 @@ const TicTacToe = () => {
   const [xNext, setXNext] = useState(true);
 
   const handleClick = (index) => {
-    if (theWinner(squares)) {
+    if (squares[index] || theWinner(squares)) {
       return;
     }
+
     const squareUpdate = [...squares];
-    if (squareUpdate[index]) {
-      return;
-    }
     squareUpdate[index] = xNext ? 'X' : 'O';
     setSquares(squareUpdate);
     setXNext(!xNext);
-
-    const winner = theWinner(squareUpdate);
-    if (winner) {
-      alert(`The Winner is: ${winner} Player`);
-    } else if (squareUpdate.every((square) => square !== null)) {
-      alert('Draw!! Please restart the game.');
-    } else if (squareUpdate.every((square) => square === winner)) {
-      alert('Restart!');
-    }
   };
 
   const refresh = () => {
@@ -53,16 +42,17 @@ const TicTacToe = () => {
     return null;
   };
 
-  let status;
   const winner = theWinner(squares);
+  let status;
   if (winner) {
     status = `The Winner is: ${winner} Player`;
+  } else if (squares.every((square) => square !== null)) {
+    status = 'Draw!! Please restart the game.';
   } else {
     status = `Player ${xNext ? 'X' : 'O'} turn`;
   }
 
   return (
-    //change this some time, it wasnt working right it's a class in the css file
     <div id="game-container"> 
       <div className="box">
         {squares.map((value, index) => (
@@ -70,10 +60,10 @@ const TicTacToe = () => {
         ))}
       </div>
       <div>
-      <p className="status">{status}</p>
-      <button className="buttons" onClick={refresh}>
-        Play again
-      </button>
+        <h4 className="status">{status}</h4>
+        <button className="buttons" onClick={refresh}>
+          Play again
+        </button>
       </div>
     </div>
   );

@@ -2,14 +2,14 @@ import React, { useState } from "react";
 import "../App.css";
 
 const PigLatin = () => {
-  const [userInput, setUserInput] = useState(
-    ""
-  );
-  const [translatedWords, setTranslatedWords] = useState("");  // New state for translated words
+  const [userInput, setUserInput] = useState("");
+  const [translatedWords, setTranslatedWords] = useState("");
 
   const myPigLatinCodeHere = () => {
     const arrayOfUserInput = userInput.split(" ");
-    const translatedWordsArray = arrayOfUserInput.map((eachWord) => {
+    const translatedWordsArray = arrayOfUserInput.map((eachWord) => { if (eachWord.trim() === '') {
+      return '';
+    }
       const vowels = ["a", "e", "i", "o", "u"];
       let translatedWord = eachWord;
 
@@ -58,7 +58,7 @@ const PigLatin = () => {
     <div className="page-container">
       <div className="body-container">
         <h1>Pig Latin Translator</h1>
-        <p>Translates the user input into Pig Latin.</p>
+        <h3>Translates the user input into Pig Latin.</h3>
         <div className="input-section">
           <h4>Enter phrase to be translated:</h4>
           <input
@@ -72,7 +72,7 @@ const PigLatin = () => {
           <button className="buttons" onClick={setUpPreventDefault}>Submit</button>
           <button className="buttons" onClick={restartGame}>Clear</button>
         </div>
-        <p className="piggyOutput">{translatedWords}</p> {/* Display translated words */}
+        <h3 className="piggyOutput">{translatedWords}</h3> {/* Display translated words */}
       </div>
      
     </div>

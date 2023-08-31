@@ -44,8 +44,9 @@ const PasswordGen = () => {
         type="text"
         value={userInput}
         onChange={handleInputChange}
-        placeholder="Existing PW or Phrase"
+        placeholder="Enter Existing Password"
       />
+      
       <div>
       <button className="buttons" onClick={generateRandomOutput}>Generate Random Password</button>
       </div>
