@@ -52,7 +52,8 @@ const PasswordGen = () => {
       </div>
       <button className="buttons" onClick={clearInput}>Clear</button>
       
-      <h2 className="passGen">Password: {randomOutput}</h2>
+      <h2 className="passGen">Password:</h2>
+      <h2 className='passGen2'> {randomOutput}</h2>
     </div>
   );
 };
