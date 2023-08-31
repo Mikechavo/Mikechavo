@@ -1,38 +1,38 @@
 import React from 'react'
 import '../App.css';
 import github from '../icons/github.png';
-import js_logo from '../icons/js_logo.png';
-import reactt_logo from '../icons/reactt_logo.png';
-import rails_logo from '../icons/rails_logo.png';
-import css_logo from '../icons/css_logo.png';
-import html_logo from '../icons/html_logo.png';
-import sql_logo from '../icons/sql_logo.png';
-import gas_logo from '../icons/gas_logo.png';
-import c_logo from '../icons/c_logo.png';
-import ruby_logo from '../icons/ruby_logo.jpeg';
 import ai_image from '../icons/ai_image.jpg';
-import ContactMe from '../components/ContactMe';
+import linkedin from '../icons/linkedin.png';
+import emailLogo from '../icons/emailLogo.png';
 
 
 const HomePage = () => {
   return (
 
     <div className="home-page">
-       <div class="background-animation"></div>
-       <header className="App-header">
+      <div class="background-animation"></div>
+      <header className="App-header">
 
-        
-      
-        
+      <section id="Contact">
+            <div className="email-icon">
+              <a href="mailto:mchavez76@yahoo.com">
+                <img src={emailLogo} alt="Email" className="icon-logo" />
+              </a>
+              <a href="https://github.com/Mikechavo"><img src={github} alt="GitHub" className="icon-logo" />
+              </a>
+              <a href="https://www.linkedin.com/in/michael-t-chavez/"><img src={linkedin} alt="LinkedIn" className="icon-logo" /></a>
+            </div>
+          </section>
 
         <a>
           <img id="myimage" src={ai_image} alt="AI picture of me"></img>
         </a>
         <div >
-        <h1>Hi. I'm Mike.</h1>
-      <h1>I'm a Full Stack Developer</h1>
-      <ContactMe />
-      </div>
+          <h1>Hi. I'm Mike.</h1>
+          <h1>I'm a Full Stack Developer</h1>
+
+          
+        </div>
       </header>
     </div>
   )
