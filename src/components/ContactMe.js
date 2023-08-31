@@ -7,7 +7,7 @@ import emailLogo from '../icons/emailLogo.png';
 const ContactMe = () => {
   return (
   <section id="Contact">
-    <p>Contact Me:</p>
+    
     
       
         <div className="email-icon">
