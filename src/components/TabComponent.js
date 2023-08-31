@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './TabComponent';
 
 const TabComponent = ({ tabs, defaultTab }) => {
   const [activeTab, setActiveTab] = useState(defaultTab);
