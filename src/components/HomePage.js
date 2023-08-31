@@ -21,15 +21,18 @@ const HomePage = () => {
        <div class="background-animation"></div>
        <header className="App-header">
 
-        <div className="contact-me-top-left">
-        <ContactMe />
-        </div>
+        
+      
+        
 
         <a>
           <img id="myimage" src={ai_image} alt="AI picture of me"></img>
         </a>
+        <div >
         <h1>Hi. I'm Mike.</h1>
       <h1>I'm a Full Stack Developer</h1>
+      <ContactMe />
+      </div>
       </header>
     </div>
   )

@@ -58,45 +58,15 @@
   width: 50px; /* Adjust the width as needed */
   height: 50px; /* Adjust the height as needed */
   max-width: 100%; /* Ensure the logo doesn't exceed this width */
+  z-index: 1000;
+}
+@media screen and (max-width: 768px) {
+  .icon-logo {
+    bottom: 10px; /* Adjust the vertical position for mobile */
+    left: 10px; /* Adjust the horizontal position for mobile */
+  }
 }
 
-
-.email-icon {
-  display: inline-block;
-  position: relative;
-}
-
-.email-icon:hover::before {
-  content: 'mchavez76@yahoo.com'; /* Text to show on hover */
-  position: absolute;
-  bottom: -25px;
-  right: -50%;
-  transform: translateX(-50%);
-  background-color: #333;
-  color: white;
-  padding: 4px 8px;
-  border-radius: 4px;
-  opacity: 0;
-  transition: opacity 0.3s ease-in-out;
-  transform: translateX(80%); /* Add this line to adjust the positioning */
-}
-
-.email-icon:hover::after {
-  content: '';
-  position: absolute;
-  bottom: -10px;
-  left: 50%;
-  transform: translateX(-50%);
-  border: 5px solid transparent;
-  border-top-color: #333;
-  opacity: 0;
-  transition: opacity 0.3s ease-in-out;
-}
-
-.email-icon:hover::before,
-.email-icon:hover::after {
-  opacity: 1;
-}
 
 .fixed-header {
   position: fixed;
@@ -392,6 +362,25 @@
     color: #fff;
   }
   
- 
+  .projects-section {
+    max-width: 1200px; /* Adjust max width as needed */
+    margin: 0 auto; /* Center the section horizontally */
+  
+    /* Add media queries for different screen sizes */
+    @media (max-width: 768px) {
+      .Project {
+        width: 100%; /* Make each project div take full width on smaller screens */
+        margin-bottom: 20px; /* Add spacing between projects */
+      }
+    }
+  
+    /* Add more media queries and styling as needed for other screen sizes */
+  }
+  
+  
+  
+  
+  
+  
 
   
