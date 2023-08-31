@@ -29,7 +29,7 @@ const HomePage = () => {
         </a>
         <div >
           <h1>Hi. I'm Mike.</h1>
-          <h1>I'm a Full Stack Developer</h1>
+          <p>I'm a Full Stack Developer.</p>
 
           
         </div>

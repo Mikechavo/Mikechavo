@@ -16,11 +16,11 @@
   background: linear-gradient(to right bottom, #858585, #525252);
 }
 /* =======> */
-p {
+/* p {
   text-align:justify;
-  max-width: 50%;
+  max-width: 80%;
   margin: 0 auto; 
-}
+} */
 /* ==========> */
 
 .App-logo {
@@ -302,7 +302,14 @@ p {
     font-size: 30px;
     
   }
-
+  .passGen2 {
+  font-family: American Typewriter, serif;
+  font-style: italic;
+  color: #a3ef15;
+  font-size: 30px;
+  
+  
+}
   .projectsTitle {
     font-size: 60px;
   }
