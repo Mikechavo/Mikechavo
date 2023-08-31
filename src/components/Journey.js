@@ -5,7 +5,12 @@ import '../App.css';
 
 const Journey = () => {
   return (
+    
     <section className="Journey">
+      <div className="JourneyTitle">
+      <h1>My Software Development Journey</h1>
+      </div>
+
         <p>I started my career studying Computer Science back in 2017</p>
         <p>The first time I really implemented code was when I worked at Uber as Technical Sourcer, I built automation tools with Google Apps Script.</p>
         <a><img src={arrow} alt="arrow" className="icon-logo" /></a>
@@ -21,7 +26,7 @@ const Journey = () => {
         <h2>LEARN Academy</h2>
         <h4>2023</h4>
         <p>I wanted to have more structure to the learning process of Software Development so I enrolled into LEARN’s Fullstack development bootcamp.</p>
-        <a><img src={arrow} alt="arrow" className="icon-logo" /></a>
+        
       </section>
   )
 }

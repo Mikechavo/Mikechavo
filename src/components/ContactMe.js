@@ -5,8 +5,9 @@ import linkedin from '../icons/linkedin.png';
 import emailLogo from '../icons/emailLogo.png';
 
 const ContactMe = () => {
-  return (<section id="Contact">
-    <p>You can reach out to me via:</p>
+  return (
+  <section id="Contact">
+    
     <ul>
       <p>
         <div className="email-icon">

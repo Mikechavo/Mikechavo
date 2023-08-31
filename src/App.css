@@ -14,6 +14,9 @@
   background: -ms-linear-gradient(left top, #858585, #525252);
   background: linear-gradient(to right bottom, #858585, #525252);
 }
+/* =======> */
+
+/* ==========> */
 
 .App-logo {
   height: 40vmin;
@@ -67,7 +70,7 @@
   content: 'mchavez76@yahoo.com'; /* Text to show on hover */
   position: absolute;
   bottom: -25px;
-  left: 50%;
+  right: -50%;
   transform: translateX(-50%);
   background-color: #333;
   color: white;
@@ -75,6 +78,7 @@
   border-radius: 4px;
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
+  transform: translateX(80%); /* Add this line to adjust the positioning */
 }
 
 .email-icon:hover::after {
@@ -212,6 +216,13 @@
       background-color: black;
     }
 
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 50vh; /* Optional: This ensures the content is centered vertically even if the content is smaller than the viewport height */
+  }
+
     .Skills {
       display:flexbox;
      flex-wrap: wrap;
@@ -316,5 +327,71 @@
     font-size: 30px;
     
   }
+
+  .projectsTitle {
+    font-size: 60px;
+  }
+  
+  .JourneyTitle {
+    font-size: 50px;
+  }
+
+  .contact-me-top-left {
+    position: absolute;
+    top: 20px; /* Adjust the value to position it vertically */
+    left: 20px; /* Adjust the value to position it horizontally */
+  }
+
+  .home-page {
+    overflow: hidden; /* Hide scrollbars */
+    position: fixed; /* Fix the content */
+    width: 100%; /* Take full width */
+    height: 100%; /* Take full height */
+  }
+  
+  /* Adjust the positioning and dimensions of the ContactMe component */
+  .contact-me-top-left {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 2; /* Place above the background animation */
+  }
+  
+  /* Add styles to allow scrolling for the tab content */
+  .tab-component {
+    overflow-y: auto; /* Enable vertical scrolling */
+    height: calc(100% - 40px); /* Adjust based on ContactMe position */
+  }
+
+  /* =============> */
+
+  .tab-component {
+   
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px; /* Adjust the margin as needed */
+  }
+  
+  .tab-buttons {
+   
+    gap: 10px; /* Adjust the gap between tabs */
+  }
+  
+  .tab-buttons button {
+    background-color: #f2f2f2;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .tab-buttons button.active {
+    background-color: #3498db; /* Change to the desired active tab color */
+    color: #fff;
+  }
+  
+ 
 
   
