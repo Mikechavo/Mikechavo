@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Mikechavo/static/css/main.79fbf5bd.css",
-    "main.js": "/Mikechavo/static/js/main.4af81d1d.js",
+    "main.css": "/Mikechavo/static/css/main.32dcc6f6.css",
+    "main.js": "/Mikechavo/static/js/main.f2f8bdf8.js",
     "static/js/787.1ed0c42c.chunk.js": "/Mikechavo/static/js/787.1ed0c42c.chunk.js",
     "static/media/emailLogo.png": "/Mikechavo/static/media/emailLogo.123e713e17bf086e35a6.png",
     "static/media/arrow.png": "/Mikechavo/static/media/arrow.e189e1c7b4c44d98cdb5.png",
@@ -9,12 +9,12 @@
     "static/media/ai_image.jpg": "/Mikechavo/static/media/ai_image.db21577cf63b48ff529f.jpg",
     "static/media/army_image.jpg": "/Mikechavo/static/media/army_image.0a7f105e366b47610f36.jpg",
     "index.html": "/Mikechavo/index.html",
-    "main.79fbf5bd.css.map": "/Mikechavo/static/css/main.79fbf5bd.css.map",
-    "main.4af81d1d.js.map": "/Mikechavo/static/js/main.4af81d1d.js.map",
+    "main.32dcc6f6.css.map": "/Mikechavo/static/css/main.32dcc6f6.css.map",
+    "main.f2f8bdf8.js.map": "/Mikechavo/static/js/main.f2f8bdf8.js.map",
     "787.1ed0c42c.chunk.js.map": "/Mikechavo/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.79fbf5bd.css",
-    "static/js/main.4af81d1d.js"
+    "static/css/main.32dcc6f6.css",
+    "static/js/main.f2f8bdf8.js"
   ]
 }

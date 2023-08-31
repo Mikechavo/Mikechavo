@@ -62,16 +62,19 @@ const TicTacToe = () => {
   }
 
   return (
-    <div className="game-container">
+    //change this some time, it wasnt working right it's a class in the css file
+    <div id="game-container"> 
       <div className="box">
         {squares.map((value, index) => (
           <Square key={index} value={value} onClick={() => handleClick(index)} />
         ))}
       </div>
-      <div className="status">{status}</div>
+      <div>
+      <p className="status">{status}</p>
       <button className="buttons" onClick={refresh}>
         Play again
       </button>
+      </div>
     </div>
   );
 };
