@@ -25,7 +25,7 @@ const Projects = () => {
     
             <div className="Project">
               <h2>Password Generator</h2>
-              <p>Generates a random password using an existing password while keeping the same number of caps, numbers and special characters. Alone the letters will be generated randomly.</p>
+              <p>Generates a random password using an existing password while keeping the same number of caps, numbers and special characters. Only the letters will be generated randomly.</p>
               <br />
               <PasswordGen />
             </div>

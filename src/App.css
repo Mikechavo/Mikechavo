@@ -324,12 +324,7 @@
     left: 20px; /* Adjust the value to position it horizontally */
   }
 
-  .home-page {
-    overflow: hidden; 
-    position: fixed; 
-    width: 100%; 
-    height: 100%; 
-  }
+
   
   /* Adjust the positioning and dimensions of the ContactMe component */
   .contact-me-top-left {
@@ -384,7 +379,12 @@
   
   
    
-  
+    /* .home-page {
+    overflow: hidden; 
+    position: fixed; 
+    width: 100%; 
+    height: 100%; 
+  } */
   
   
   
