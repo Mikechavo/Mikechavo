@@ -28,9 +28,9 @@ const HomePage = () => {
           <p>I'm a Full Stack Developer.</p>
         </div>
 
-        {/* <a> */}
-          <img src={ai_image} alt="AI picture of me"></img>
-        {/* </a> */}
+        <a>
+          <img id="myimage" src={ai_image} alt="AI picture of me"></img>
+        </a>
 
       </header>
     </div>
