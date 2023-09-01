@@ -23,16 +23,15 @@ const HomePage = () => {
               <a href="https://www.linkedin.com/in/michael-t-chavez/"><img src={linkedin} alt="LinkedIn" className="icon-logo" /></a>
             </div>
           {/* </section> */}
-
-        <a>
-          <img id="myimage" src={ai_image} alt="AI picture of me"></img>
-        </a>
-        <div >
+          <div >
           <h1>Hi. I'm Mike.</h1>
           <p>I'm a Full Stack Developer.</p>
-
-          
         </div>
+
+        {/* <a> */}
+          <img src={ai_image} alt="AI picture of me"></img>
+        {/* </a> */}
+
       </header>
     </div>
   )
