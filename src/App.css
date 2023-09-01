@@ -176,7 +176,7 @@
       background-image: repeating-linear-gradient(90deg, 
         rgba(20, 25, 25, 0.6),
         rgba(25, 25, 25, 0.6) 10%, 
-        #4c4c4c 10%, #4c4c4c 20%);
+        #4c4c4c 10%, #070707 20%);
       background-size: 70%;
       transition: background 0.3s ease-in-out;
     }
@@ -325,10 +325,10 @@
   }
 
   .home-page {
-    overflow: hidden; /* Hide scrollbars */
-    position: fixed; /* Fix the content */
-    width: 100%; /* Take full width */
-    height: 100%; /* Take full height */
+    overflow: hidden; 
+    position: fixed; 
+    width: 100%; 
+    height: 100%; 
   }
   
   /* Adjust the positioning and dimensions of the ContactMe component */
@@ -375,6 +375,10 @@
     background-color: #050505; /* Change to the desired active tab color */
     color: #fff;
     
+  }
+
+  .tab-buttons:hover {
+    background-position: 150px;
   }
   
   
