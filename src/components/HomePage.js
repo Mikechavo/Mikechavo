@@ -13,7 +13,7 @@ const HomePage = () => {
       <div class="background-animation"></div>
       <header className="App-header">
 
-      <section id="Contact">
+      {/* <section id="Contact"> */}
             <div className="email-icon">
               <a href="mailto:mchavez76@yahoo.com">
                 <img src={emailLogo} alt="Email" className="icon-logo" />
@@ -22,7 +22,7 @@ const HomePage = () => {
               </a>
               <a href="https://www.linkedin.com/in/michael-t-chavez/"><img src={linkedin} alt="LinkedIn" className="icon-logo" /></a>
             </div>
-          </section>
+          {/* </section> */}
 
         <a>
           <img id="myimage" src={ai_image} alt="AI picture of me"></img>
