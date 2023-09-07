@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Mikechavo/static/css/main.05139c75.css",
+    "main.css": "/Mikechavo/static/css/main.042834ec.css",
     "main.js": "/Mikechavo/static/js/main.de823b28.js",
     "static/js/787.1ed0c42c.chunk.js": "/Mikechavo/static/js/787.1ed0c42c.chunk.js",
     "static/media/c_logo.png": "/Mikechavo/static/media/c_logo.64f637357bce0ccc8384.png",
@@ -16,12 +16,12 @@
     "static/media/army_image.jpg": "/Mikechavo/static/media/army_image.0a7f105e366b47610f36.jpg",
     "static/media/rails_logo.png": "/Mikechavo/static/media/rails_logo.4b996d690c85dd90404e.png",
     "index.html": "/Mikechavo/index.html",
-    "main.05139c75.css.map": "/Mikechavo/static/css/main.05139c75.css.map",
+    "main.042834ec.css.map": "/Mikechavo/static/css/main.042834ec.css.map",
     "main.de823b28.js.map": "/Mikechavo/static/js/main.de823b28.js.map",
     "787.1ed0c42c.chunk.js.map": "/Mikechavo/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.05139c75.css",
+    "static/css/main.042834ec.css",
     "static/js/main.de823b28.js"
   ]
 }
