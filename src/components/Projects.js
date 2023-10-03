@@ -14,7 +14,7 @@ const Projects = () => {
             <h1 className='projectsTitle'>Projects</h1>
             <div className="Project">
               <u><h3>PintPal</h3></u>
-              <h4>A Fullstack beer community/review application using React and Ruby on Rails.</h4>
+              <h4>A Fullstack beer community/review application using React, Ruby on Rails and PostgreSQL.</h4>
               <h4>Full functionality with CRUD.</h4>
               <a href="https://pintpal.onrender.com/">
                 <button className="buttons">Live Site</button>
@@ -65,7 +65,7 @@ const Projects = () => {
             </div>
             <div className="Project">
               <u><h3>Cribz</h3></u>
-              <h4>A Fullstack hotel application using React and Ruby on Rails.</h4>
+              <h4>A Fullstack home application using React and Ruby on Rails.</h4>
               <a href="https://github.com/learn-academy-2023-echo/apartment-app-frontend-cribz">
                 <button className="buttons">Frontend Source code</button>
               </a>
