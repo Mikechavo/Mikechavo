@@ -13,6 +13,14 @@ const Projects = () => {
           <section id='Projects1' className='projects-section'>
             <h1 className='projectsTitle'>Projects</h1>
             <div className="Project">
+              <u><h3>PintPal</h3></u>
+              <h4>A Fullstack beer community/review application using React and Ruby on Rails.</h4>
+              <h4>Full functionality with CRUD.</h4>
+              <a href="https://pintpal.onrender.com/">
+                <button className="buttons">Live Site</button>
+              </a>
+            </div>
+            <div className="Project">
               <u><h2>Tic-Tac-Toe</h2></u>
               <p>This is a Web game for two players on the same screen taking turns.</p>
               <TicTacToe /> 
@@ -43,6 +51,26 @@ const Projects = () => {
               <h4>Application where the user can see all blog posts.</h4>
               <a href="https://github.com/learn-academy-2023-echo/full-stack-rails-fullstack-mc-pj">
                 <button className="buttons">Source code</button>
+              </a>
+            </div>
+            <div className="Project">
+              <u><h3>Fictional Dating Application</h3></u>
+              <h4>A Fullstack dating application using React and Ruby on Rails.</h4>
+              <a href="https://github.com/learn-academy-2023-echo/cat-tinder-frontend-fiction-dateme-mike-graham">
+                <button className="buttons">Frontend Source code</button>
+              </a>
+              <a href="https://github.com/learn-academy-2023-echo/cat-tinder-backend-fiction-dateme-mike-graham">
+                <button className="buttons">Backend Source code</button>
+              </a>
+            </div>
+            <div className="Project">
+              <u><h3>Cribz</h3></u>
+              <h4>A Fullstack hotel application using React and Ruby on Rails.</h4>
+              <a href="https://github.com/learn-academy-2023-echo/apartment-app-frontend-cribz">
+                <button className="buttons">Frontend Source code</button>
+              </a>
+              <a href="https://github.com/learn-academy-2023-echo/apartment-app-backend-cribz">
+                <button className="buttons">Backend Source code</button>
               </a>
             </div>
           </section>
