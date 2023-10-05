@@ -5,7 +5,7 @@ import '../App.css';
 import PasswordGen from '../components/PasswordGen';
 import TicTacToe from '../components/TicTacToe';
 import PigLatin from '../components/PigLatin';
-import { Button, Input, Label, Modal, ModalHeader, ModalBody, ModalFooter } from "reactstrap"
+import { Button, Input, Label, Modal, ModalHeader, ModalBody, ModalFooter, Card, CardBody, CardText, CardTitle, CardSubtitle } from "reactstrap"
 
 const Projects = (args) => {
   const [modal, setModal] = useState(false)
@@ -19,68 +19,159 @@ const Projects = (args) => {
       <h1 className='projectsTitle'>Projects</h1>
       <div className="Project">
         <u><h2>PintPal</h2></u>
-        <p>A Fullstack beer community/review application using React, Ruby on Rails and PostgreSQL.</p>
-        <p>Full functionality with CRUD.</p>
-        <Button color="danger" href="https://pintpal.onrender.com/">
-          Live Site</Button>
-        
+        <div className='cards'>
+          <Card color="" style={{ width: '50rem' }}>
+            {/* <CardBody>
+          
+          </CardBody> */}
+            <CardBody>
+              <CardText>
+                A Fullstack beer community/review application using React, Ruby on Rails and PostgreSQL.
+              </CardText>
+              <CardText>
+                Full functionality with CRUD.
+              </CardText>
+            </CardBody>
+            <CardBody>
+              <Button color="danger" href="https://pintpal.onrender.com/">
+                Live Site</Button>
+            </CardBody>
+          </Card>
+        </div>
       </div>
+      <br />
+
       <div className="Project">
         <u><h2>Tic-Tac-Toe</h2></u>
-        <p>This is a Web game for two players on the same screen taking turns.</p>
-        <TicTacToe />
+        <div className='cards'>
+          <Card color="" style={{ width: '50rem' }}>
+            <CardBody>
+              <CardText>
+                This is a Web game for two players on the same screen taking turns.
+              </CardText>
+            </CardBody>
+            <CardBody>
+              <TicTacToe />
+            </CardBody>
+          </Card>
+        </div>
       </div>
       <br />
 
       <div className="Project">
         <u><h2>Pig Latin</h2></u>
-        <p>Translates the user input into Pig Latin.</p>
-        <PigLatin />
+        <div className='cards'>
+          <Card color="" style={{ width: '50rem' }}>
+            <CardBody>
+              <CardText>
+                Translates the user input into Pig Latin.
+              </CardText>
+            </CardBody>
+            <CardBody>
+              <PigLatin />
+            </CardBody>
+          </Card>
+        </div>
       </div>
       <br />
 
       <div className="Project">
         <b><u><h2>Password Generator</h2></u></b>
-        <p>Generates a random password using an existing password while keeping the same number of caps, numbers and special characters. Only the letters will be generated randomly.</p>
-      
-        <PasswordGen />
+        <div className='cards'>
+          <Card color="" style={{ width: '50rem' }}>
+            <CardBody>
+              <CardText>
+                Generates a random password using an existing password while keeping the same number of caps, numbers and special characters. Only the letters will be generated randomly.
+              </CardText>
+            </CardBody>
+            <CardBody>
+              <PasswordGen />
+            </CardBody>
+          </Card>
+        </div>
       </div>
       <br />
 
       <div className="Project">
         <u><h2>Ruby Text Based Game</h2></u>
-        <p>Text based game using Ruby.</p>
-        <Button color="danger" href="https://github.com/learn-academy-2023-echo/text-based-game-mpr">
-          Source code</Button>
+        <div className='cards'>
+          <Card color="" style={{ width: '50rem' }}>
+            <CardBody>
+              <CardText>
+              Text based game using Ruby.
+              </CardText>
+            </CardBody>
+            <CardBody>
+            <Button color="danger" href="https://github.com/learn-academy-2023-echo/text-based-game-mpr">
+          Source Code</Button>
+            </CardBody>
+          </Card>
+        </div>       
       </div>
-      <br/>
+      <br />
 
       <div className="Project">
         <u><h2>Blog Post Application</h2></u>
-        <p>Application where the user can see all blog posts.</p>
-        <Button color="danger"href="https://github.com/learn-academy-2023-echo/full-stack-rails-fullstack-mc-pj">
-          Source code</Button>
+        <div className='cards'>
+          <Card color="" style={{ width: '50rem' }}>
+            <CardBody>
+              <CardText>
+              Application where the user can see all blog posts.
+              </CardText>
+            </CardBody>
+            <CardBody>
+            <Button color="danger" href="https://github.com/learn-academy-2023-echo/full-stack-rails-fullstack-mc-pj">
+          Source Code</Button>
+            </CardBody>
+          </Card>
+        </div>      
       </div>
-      <br/>
+      <br />
 
       <div className="Project">
         <u><h2>Fictional Dating Application</h2></u>
-        <p>A Fullstack dating application using React and Ruby on Rails.</p>
-        <Button color="danger" href="https://github.com/learn-academy-2023-echo/cat-tinder-frontend-fiction-dateme-mike-graham">
-          Frontend Source code</Button>
-        
-          <Button color="danger" href="https://github.com/learn-academy-2023-echo/cat-tinder-backend-fiction-dateme-mike-graham">
-          Backend Source code</Button>
+        <div className='cards'>
+          <Card color="" style={{ width: '50rem' }}>
+            <CardBody>
+              <CardText>
+              A Fullstack dating application using React, Ruby on Rails and PostgreSQL.
+              </CardText>
+            </CardBody>
+            <CardBody>
+            <Button color="danger" href="https://github.com/learn-academy-2023-echo/cat-tinder-frontend-fiction-dateme-mike-graham">
+          Frontend Source Code</Button>
+            </CardBody>
+            <CardBody>
+            <Button color="danger" href="https://github.com/learn-academy-2023-echo/cat-tinder-backend-fiction-dateme-mike-graham">
+          Backend Source Code</Button>
+            </CardBody>
+          </Card>
+        </div>        
       </div>
-      <br/>
+      <br />
 
       <div className="Project">
         <u><h2>Cribz</h2></u>
-        <p>A Fullstack home application using React and Ruby on Rails.</p>
-         <Button color="danger" href="https://github.com/learn-academy-2023-echo/apartment-app-frontend-cribz">
-          Frontend Source code</Button>
+        <div className='cards'>
+          <Card color="" style={{ width: '50rem' }}>
+            <CardBody>
+              <CardText>
+              A Fullstack home application using React, Ruby on Rails and PostgreSQL.
+              </CardText>
+            </CardBody>
+            <CardBody>
+            <Button color="danger" href="https://github.com/learn-academy-2023-echo/apartment-app-frontend-cribz">
+          Frontend Source Code</Button>
+            </CardBody>
+            <CardBody>
+            <Button color="danger" href="https://github.com/learn-academy-2023-echo/apartment-app-backend-cribz">Backend Source Code</Button>
+            </CardBody>
+          </Card>
+        </div> 
+
+       
+
         
-          <Button color="danger" href="https://github.com/learn-academy-2023-echo/apartment-app-backend-cribz">Backend Source code</Button>
       </div>
     </section>
   )

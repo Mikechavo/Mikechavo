@@ -82,7 +82,7 @@
 
 // export default App;
 
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import TabComponent from './components/TabComponent';  // Check the path
 import Skill from './components/Skill';  // Check the path
@@ -93,6 +93,7 @@ import github from './icons/github.png';
 import linkedin from './icons/linkedin.png';
 import emailLogo from './icons/emailLogo.png';
 import { Button, Input, Label, Modal, ModalHeader, ModalBody, ModalFooter } from "reactstrap"
+import { Card, CardBody, CardText, CardTitle, CardSubtitle } from "reactstrap"
 
 
 
@@ -107,27 +108,32 @@ const App = (args) => {
     { title: 'Skills', content: <Skill /> },
     { title: 'My Journey', content: <Journey /> },
     { title: 'Projects', content: <Projects /> },
-    {  title: 'Contact Me', content: 
-      <>
-      <br/>
-      <u><h1>Contact Me:</h1></u>
-      <div className="email-icon">
-        <a href="mailto:mchavez76@yahoo.com">
-          <img src={emailLogo} alt="Email" className="icon-logo" />
-        </a>
-        <a href="https://github.com/Mikechavo"><img src={github} alt="GitHub" className="icon-logo" />
-        </a>
-        <a href="https://www.linkedin.com/in/michael-t-chavez/"><img src={linkedin} alt="LinkedIn" className="icon-logo" /></a>
-      </div>
-      </>
-  }
+    {
+      title: 'Contact Me', content:
+        <>
+          <br />
+          <u><h1>Contact Me:</h1></u>
+          <div className='cards'>
+            <Card color="" style={{ width: '20rem' }}>
+              <div className="email-icon">
+                <a href="mailto:mchavez76@yahoo.com">
+                  <img src={emailLogo} alt="Email" className="icon-logos" />
+                </a>
+                <a href="https://github.com/Mikechavo"><img src={github} alt="GitHub" className="icon-logos" />
+                </a>
+                <a href="https://www.linkedin.com/in/michael-t-chavez/"><img src={linkedin} alt="LinkedIn" className="icon-logos" /></a>
+              </div>
+            </Card>
+          </div>
+        </>
+    }
   ];
 
   return (
     <div className="App">
-       <div class="background-animation"></div>
-       <header className="App-header">
-         
+      <div class="background-animation"></div>
+      <header className="App-header">
+
       </header>
       <TabComponent tabs={tabs} defaultTab={0} />
     </div>
