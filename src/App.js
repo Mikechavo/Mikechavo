@@ -82,21 +82,45 @@
 
 // export default App;
 
-import React from 'react';
+import React, {useState} from 'react';
 import './App.css';
 import TabComponent from './components/TabComponent';  // Check the path
 import Skill from './components/Skill';  // Check the path
 import Journey from './components/Journey';
 import Projects from './components/Projects';
 import HomePage from './components/HomePage';
+import github from './icons/github.png';
+import linkedin from './icons/linkedin.png';
+import emailLogo from './icons/emailLogo.png';
+import { Button, Input, Label, Modal, ModalHeader, ModalBody, ModalFooter } from "reactstrap"
 
 
-const App = () => {
+
+
+
+const App = (args) => {
+  const [modal, setModal] = useState(false)
+
+  const toggle = () => setModal(!modal)
   const tabs = [
     { title: 'Home', content: <HomePage /> },
     { title: 'Skills', content: <Skill /> },
     { title: 'My Journey', content: <Journey /> },
-    { title: 'Projects', content: <Projects /> }
+    { title: 'Projects', content: <Projects /> },
+    {  title: 'Contact Me', content: 
+      <>
+      <br/>
+      <u><h1>Contact Me:</h1></u>
+      <div className="email-icon">
+        <a href="mailto:mchavez76@yahoo.com">
+          <img src={emailLogo} alt="Email" className="icon-logo" />
+        </a>
+        <a href="https://github.com/Mikechavo"><img src={github} alt="GitHub" className="icon-logo" />
+        </a>
+        <a href="https://www.linkedin.com/in/michael-t-chavez/"><img src={linkedin} alt="LinkedIn" className="icon-logo" /></a>
+      </div>
+      </>
+  }
   ];
 
   return (
