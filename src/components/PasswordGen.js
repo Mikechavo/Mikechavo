@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import "../App.css";
-
+import { Button, Input, Label, Modal, ModalHeader, ModalBody, ModalFooter } from "reactstrap"
 
 const generateRandomLetter = () => {
   const alphabet = 'abcdefghijklmnopqrstuvwxyz';
@@ -8,9 +8,12 @@ const generateRandomLetter = () => {
   return alphabet[randomIndex];
 };
 
-const PasswordGen = () => {
+const PasswordGen = (args) => {
   const [userInput, setUserInput] = useState('');
   const [randomOutput, setRandomOutput] = useState('');
+  const [modal, setModal] = useState(false)
+
+  const toggle = () => setModal(!modal)
 
   const handleInputChange = (event) => {
     setUserInput(event.target.value);
@@ -39,6 +42,11 @@ const PasswordGen = () => {
   };
 
   return (
+    <>
+    <Button color="danger" onClick={toggle}>Demo</Button>
+        <Modal isOpen={modal} toggle={toggle} {...args}>
+          <ModalBody>
+    
     <div>
       <input
         type="text"
@@ -48,13 +56,21 @@ const PasswordGen = () => {
       />
       
       <div>
-      <button className="buttons" onClick={generateRandomOutput}>Generate Random Password</button>
+      <Button color="success" onClick={generateRandomOutput}>Generate Random Password</Button>
       </div>
-      <button className="buttons" onClick={clearInput}>Clear</button>
+      <Button color="danger" onClick={clearInput}>Clear</Button>
       
-      <h2 className="passGen">Password:</h2>
-      <h2 className='passGen2'> {randomOutput}</h2>
+      <h2 className="">Password:</h2>
+      <u><h3 className=''> {randomOutput}</h3></u>
     </div>
+    </ModalBody>
+          <ModalFooter>
+            <Button color="secondary" onClick={toggle}>
+              Close
+            </Button>
+          </ModalFooter>
+        </Modal>
+        </>
   );
 };
 

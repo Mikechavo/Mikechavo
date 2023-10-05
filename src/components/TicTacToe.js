@@ -1,10 +1,14 @@
 import React, { useState } from 'react';
 import Square from './Square';
+import { Button, Input, Label, Modal, ModalHeader, ModalBody, ModalFooter } from "reactstrap"
 
-const TicTacToe = () => {
+const TicTacToe = (args) => {
   const initialSquares = Array(9).fill(null);
   const [squares, setSquares] = useState(initialSquares);
   const [xNext, setXNext] = useState(true);
+  const [modal, setModal] = useState(false)
+
+  const toggle = () => setModal(!modal)
 
   const handleClick = (index) => {
     if (squares[index] || theWinner(squares)) {
@@ -53,7 +57,11 @@ const TicTacToe = () => {
   }
 
   return (
-    <div id="game-container"> 
+    <>
+    <Button color="danger" onClick={toggle}>Demo</Button>
+        <Modal isOpen={modal} toggle={toggle} {...args}>
+          <ModalBody>
+          <div id="game-container"> 
       <div className="box">
         {squares.map((value, index) => (
           <Square key={index} value={value} onClick={() => handleClick(index)} />
@@ -66,6 +74,14 @@ const TicTacToe = () => {
         </button>
       </div>
     </div>
+          </ModalBody>
+          <ModalFooter>
+            <Button color="secondary" onClick={toggle}>
+              Close
+            </Button>
+          </ModalFooter>
+        </Modal>
+        </>
   );
 };
 

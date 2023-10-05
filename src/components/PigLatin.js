@@ -1,9 +1,13 @@
 import React, { useState } from "react";
 import "../App.css";
+import { Button, Input, Label, Modal, ModalHeader, ModalBody, ModalFooter } from "reactstrap"
 
-const PigLatin = () => {
+const PigLatin = (args) => {
   const [userInput, setUserInput] = useState("");
   const [translatedWords, setTranslatedWords] = useState("");
+  const [modal, setModal] = useState(false)
+
+  const toggle = () => setModal(!modal)
 
   const myPigLatinCodeHere = () => {
     const arrayOfUserInput = userInput.split(" ");
@@ -55,7 +59,12 @@ const PigLatin = () => {
   };
 
   return (
-    <div className="page-container">
+
+    <>
+    <Button color="danger" onClick={toggle}>Demo</Button>
+        <Modal isOpen={modal} toggle={toggle} {...args}>
+          <ModalBody>
+          <div className="page-container">
       <div className="body-container">
         <h1>Pig Latin Translator</h1>
         <h3>Translates the user input into Pig Latin.</h3>
@@ -69,13 +78,22 @@ const PigLatin = () => {
           />
           <br />
           <br />
-          <button className="buttons" onClick={setUpPreventDefault}>Submit</button>
-          <button className="buttons" onClick={restartGame}>Clear</button>
+          <Button color="success" onClick={setUpPreventDefault}>Submit</Button>
+          <Button color="danger" onClick={restartGame}>Clear</Button>
         </div>
         <h3 className="piggyOutput">{translatedWords}</h3> {/* Display translated words */}
       </div>
      
     </div>
+          </ModalBody>
+          <ModalFooter>
+            <Button color="secondary" onClick={toggle}>
+              Close
+            </Button>
+          </ModalFooter>
+        </Modal>
+        </>
+   
   );
 };
 
