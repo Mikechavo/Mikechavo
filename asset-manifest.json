@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Mikechavo/static/css/main.1768ae82.css",
-    "main.js": "/Mikechavo/static/js/main.6f1a48f8.js",
+    "main.css": "/Mikechavo/static/css/main.36b6d7c9.css",
+    "main.js": "/Mikechavo/static/js/main.449cde5e.js",
     "static/js/787.1ed0c42c.chunk.js": "/Mikechavo/static/js/787.1ed0c42c.chunk.js",
     "static/media/Postgresql.png": "/Mikechavo/static/media/Postgresql.1b904635aedb7c19150d.png",
     "static/media/ai_image.jpg": "/Mikechavo/static/media/ai_image.8bbbe06acba06df08811.jpg",
@@ -19,12 +19,12 @@
     "static/media/haml.png": "/Mikechavo/static/media/haml.79b1a99b94a6a12fb056.png",
     "static/media/rails_logo.png": "/Mikechavo/static/media/rails_logo.4b996d690c85dd90404e.png",
     "index.html": "/Mikechavo/index.html",
-    "main.1768ae82.css.map": "/Mikechavo/static/css/main.1768ae82.css.map",
-    "main.6f1a48f8.js.map": "/Mikechavo/static/js/main.6f1a48f8.js.map",
+    "main.36b6d7c9.css.map": "/Mikechavo/static/css/main.36b6d7c9.css.map",
+    "main.449cde5e.js.map": "/Mikechavo/static/js/main.449cde5e.js.map",
     "787.1ed0c42c.chunk.js.map": "/Mikechavo/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1768ae82.css",
-    "static/js/main.6f1a48f8.js"
+    "static/css/main.36b6d7c9.css",
+    "static/js/main.449cde5e.js"
   ]
 }
