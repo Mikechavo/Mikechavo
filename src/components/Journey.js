@@ -19,7 +19,7 @@ const Journey = () => {
           </CardBody> */}
           <CardBody>
             <CardText>
-            I started my career studying Computer Science back in 2017 bootcamp. The first time I really implemented code was when I worked at Uber as Technical Sourcer, I built automation tools with Google Apps Script.
+            I started my career studying Computer Science back in 2017 when I was in the US Army. The first time I really implemented code was when I worked at Uber as a Technical Sourcer, I built automation tools with Google Apps Script.
             </CardText>
           </CardBody>
         </Card>
@@ -40,7 +40,7 @@ const Journey = () => {
         <Card color="" style={{ width: '50rem' }}>
           <CardBody>
             <CardText>
-              I started studying Computer Science at University of Maryland Global Campus while serving in the US Army. This where I started learning C and C++.
+              I started studying Computer Science at the University of Maryland Global Campus while serving in the US Army. This is where I started learning C and C++.
             </CardText>
           </CardBody>
         </Card>
@@ -59,7 +59,7 @@ const Journey = () => {
           </CardBody> */}
           <CardBody>
             <CardText>
-            This is where I finally got introduced into the tech industry and taught myself Google App’s Script(HTML & JavaScript). Though coding wasn’t part of my Job description as Sourcer I wanted to make things easier with automation for my organization. Using Google Sheets, LinkedIn, Beamery and internal dashboards I was to create multiple automation tools for different use cases.
+            This is where I finally got introduced into the tech industry and taught myself Google App’s Script(HTML & JavaScript). Though coding wasn’t a part of my Job description as Sourcer, I wanted to make things easier with automation for my organization. Using Google Sheets, LinkedIn, Beamery and internal dashboards I was able to create multiple automation tools for different use cases.
             </CardText>
           </CardBody>
         </Card>
