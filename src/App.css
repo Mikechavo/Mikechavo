@@ -15,6 +15,14 @@
   background: -ms-linear-gradient(left top, #858585, #525252);
   background: linear-gradient(to right bottom, #858585, #525252);
 }
+
+.homeImage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  max-width: 100%;
+}
 /* =======> */
 /* p {
   text-align:justify;
@@ -33,6 +41,8 @@
     animation: App-logo-spin infinite 20s linear;
   }
 } */
+
+
 
 .App-header {
   

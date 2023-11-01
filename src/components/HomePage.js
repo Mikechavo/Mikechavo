@@ -29,7 +29,7 @@ const HomePage = () => {
         </div>
 
         <a>
-          <img id="myimage" src={ai_image} alt="AI picture of me"></img>
+          <img className="homeImage" src={ai_image} alt="AI picture of me"></img>
         </a>
 
       </header>
