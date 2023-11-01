@@ -1,7 +1,7 @@
 import React from 'react'
 import '../App.css';
 import github from '../icons/github.png';
-import ai_image from '../icons/ai_image.jpg';
+import ai_image from '../icons/ai_image.png';
 import linkedin from '../icons/linkedin.png';
 import emailLogo from '../icons/emailLogo.png';
 
