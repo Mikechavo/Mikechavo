@@ -69,7 +69,7 @@ const TicTacToe = (args) => {
       </div>
       <div>
         <h4 className="status">{status}</h4>
-        <button className="buttons" onClick={refresh}>
+        <button type="button" class="btn btn-success" onClick={refresh}>
           Play again
         </button>
       </div>
@@ -84,5 +84,6 @@ const TicTacToe = (args) => {
         </>
   );
 };
+
 
 export default TicTacToe;

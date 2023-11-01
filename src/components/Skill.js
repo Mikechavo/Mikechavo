@@ -12,6 +12,9 @@ import c_logo from '../icons/c_logo.png';
 import ruby_logo from '../icons/ruby_logo.png';
 import jest_logo from '../icons/jest_logo.png';
 import rspec_logo from '../icons/rspec_logo.png';
+import jquery from '../icons/jquery.png';
+import Postgresql from '../icons/Postgresql.png';
+import haml from '../icons/haml.png';
 
 const Skill = () => {
   return (
@@ -22,14 +25,17 @@ const Skill = () => {
 
       <div border="1">
         <img src={js_logo}></img>
+        <img src={jquery}></img>
         <img src={react_logo}></img>
-        <img src={ruby_logo}></img>
-        <img src={rails_logo}></img>
+        <img src={html_logo}></img>
+        <img src={css_logo}></img>
+        <img src={haml}></img>
       </div>
 
       <div border="1">
-        <img src={html_logo}></img>
-        <img src={css_logo}></img>
+        <img src={ruby_logo}></img>
+        <img src={rails_logo}></img>
+        <img src={Postgresql}></img>
         <img src={sql_logo}></img>
         <img src={gas_logo}></img>
       </div>
@@ -39,6 +45,9 @@ const Skill = () => {
         <img src={jest_logo}></img>
         <img src={rspec_logo}></img>
         <img src={github}></img>
+      </div>
+      <div border="1">
+  
       </div>
       </div>
       {/* <img id="myimage" src="https://mikechavo.carrd.co/assets/images/image02.jpg?v=8cf942e5" alt="AI picture of me"></img> */}

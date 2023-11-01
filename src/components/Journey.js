@@ -3,6 +3,8 @@ import arrow from '../icons/arrow.png';
 import army_image from '../icons/army_image.jpg';
 import '../App.css';
 import { Card, CardBody, CardText, CardTitle, CardSubtitle } from "reactstrap"
+import uber from '../icons/uber.png';
+import Learn_academy from '../icons/Learn_academy.png';
 
 const Journey = () => {
   return (
