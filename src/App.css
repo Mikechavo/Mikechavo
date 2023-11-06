@@ -220,20 +220,13 @@
       justify-content: center;
       align-items: center;
       min-height: 50vh; /* Optional: This ensures the content is centered vertically even if the content is smaller than the viewport height */
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 50vh;
-      max-width: 100%;
+      
   }
 
     .Skills {
       display:flexbox;
      flex-wrap: wrap;
      /* border: 5px solid #555; */
-     justify-content: center;
-      align-items: center;
-      min-height: 50vh;
     }
   .Skills img {
     width: 80px; /* Adjust the width as needed */
