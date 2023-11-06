@@ -231,6 +231,9 @@
       display:flexbox;
      flex-wrap: wrap;
      /* border: 5px solid #555; */
+     justify-content: center;
+      align-items: center;
+      min-height: 50vh;
     }
   .Skills img {
     width: 80px; /* Adjust the width as needed */

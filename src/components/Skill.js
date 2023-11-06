@@ -19,7 +19,7 @@ import haml from '../icons/haml.png';
 const Skill = () => {
   return (
    
-  <div className="container">
+    <div className="container">
     <div className="Skills">
      
 
@@ -51,7 +51,6 @@ const Skill = () => {
       </div>
       {/* <img id="myimage" src="https://mikechavo.carrd.co/assets/images/image02.jpg?v=8cf942e5" alt="AI picture of me"></img> */}
     </div>
-  
   )
 }
 
