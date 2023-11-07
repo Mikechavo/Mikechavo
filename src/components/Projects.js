@@ -98,15 +98,15 @@ const Projects = (args) => {
           <Card color="" style={{ width: '50rem' }}>
             <CardBody>
               <CardText>
-              Text based game using Ruby.
+                Text based game using Ruby.
               </CardText>
             </CardBody>
             <CardBody>
-            <Button color="danger" href="https://github.com/learn-academy-2023-echo/text-based-game-mpr">
-          Source Code</Button>
+              <Button color="danger" href="https://github.com/learn-academy-2023-echo/text-based-game-mpr">
+                Source Code</Button>
             </CardBody>
           </Card>
-        </div>       
+        </div>
       </div>
       <br />
 
@@ -116,15 +116,15 @@ const Projects = (args) => {
           <Card color="" style={{ width: '50rem' }}>
             <CardBody>
               <CardText>
-              Application where the user can see all blog posts.
+                Ruby on Rails Full Stack application where the user can create and delete blog post.
               </CardText>
             </CardBody>
             <CardBody>
-            <Button color="danger" href="https://github.com/learn-academy-2023-echo/full-stack-rails-fullstack-mc-pj">
-          Source Code</Button>
+              <Button color="danger" href="https://github.com/learn-academy-2023-echo/full-stack-rails-fullstack-mc-pj">
+                Source Code</Button>
             </CardBody>
           </Card>
-        </div>      
+        </div>
       </div>
       <br />
 
@@ -134,19 +134,19 @@ const Projects = (args) => {
           <Card color="" style={{ width: '50rem' }}>
             <CardBody>
               <CardText>
-              A Fullstack dating application using React, Ruby on Rails and PostgreSQL.
+                A Fullstack dating application using React, Ruby on Rails and PostgreSQL.
               </CardText>
             </CardBody>
             <CardBody>
-            <Button color="danger" href="https://github.com/learn-academy-2023-echo/cat-tinder-frontend-fiction-dateme-mike-graham">
-          Frontend Source Code</Button>
+              <Button color="danger" href="https://github.com/learn-academy-2023-echo/cat-tinder-frontend-fiction-dateme-mike-graham">
+                Frontend Source Code</Button>
             </CardBody>
             <CardBody>
-            <Button color="danger" href="https://github.com/learn-academy-2023-echo/cat-tinder-backend-fiction-dateme-mike-graham">
-          Backend Source Code</Button>
+              <Button color="danger" href="https://github.com/learn-academy-2023-echo/cat-tinder-backend-fiction-dateme-mike-graham">
+                Backend Source Code</Button>
             </CardBody>
           </Card>
-        </div>        
+        </div>
       </div>
       <br />
 
@@ -156,22 +156,39 @@ const Projects = (args) => {
           <Card color="" style={{ width: '50rem' }}>
             <CardBody>
               <CardText>
-              A Fullstack home application using React, Ruby on Rails and PostgreSQL.
+                A Fullstack home buying application using React, Ruby on Rails and PostgreSQL.
               </CardText>
             </CardBody>
             <CardBody>
-            <Button color="danger" href="https://github.com/learn-academy-2023-echo/apartment-app-frontend-cribz">
-          Frontend Source Code</Button>
+              <Button color="danger" href="https://github.com/learn-academy-2023-echo/apartment-app-frontend-cribz">
+                Frontend Source Code</Button>
             </CardBody>
             <CardBody>
-            <Button color="danger" href="https://github.com/learn-academy-2023-echo/apartment-app-backend-cribz">Backend Source Code</Button>
+              <Button color="danger" href="https://github.com/learn-academy-2023-echo/apartment-app-backend-cribz">Backend Source Code</Button>
             </CardBody>
           </Card>
-        </div> 
+        </div>
 
-       
+        <div className="Project">
+          <u><h2>To Do List</h2></u>
+          <div className='cards'>
+            <Card color="" style={{ width: '50rem' }}>
+              <CardBody>
+                <CardText>
+                  Basic application where the user can make a to do list using Python.
+                </CardText>
+              </CardBody>
+              <CardBody>
+                <Button color="danger" href="https://github.com/Mikechavo/To_do_list_python">
+                  Source Code</Button>
+              </CardBody>
+            </Card>
+          </div>
+        </div>
 
-        
+
+
+
       </div>
     </section>
   )

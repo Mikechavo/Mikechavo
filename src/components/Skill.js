@@ -15,6 +15,7 @@ import rspec_logo from '../icons/rspec_logo.png';
 import jquery from '../icons/jquery.png';
 import Postgresql from '../icons/Postgresql.png';
 import haml from '../icons/haml.png';
+import python_logo from '../icons/python-logo.png';
 
 const Skill = () => {
   return (
@@ -38,12 +39,13 @@ const Skill = () => {
       </div>
 
       <div border="1">
+        <img src={python_logo}></img>
         <img src={Postgresql}></img>
         <img src={sql_logo}></img>
         <img src={gas_logo}></img>
-        <img src={c_logo}></img>
       </div>
       <div border="1">
+        <img src={c_logo}></img>
         <img src={jest_logo}></img>
         <img src={rspec_logo}></img>
         <img src={github}></img>
