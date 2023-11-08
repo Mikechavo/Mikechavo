@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
 import arrow from '../icons/arrow.png';
 import army_image from '../icons/army_image.jpg';
+import stable from '../icons/stable.png';
 import '../App.css';
 import PasswordGen from '../components/PasswordGen';
 import TicTacToe from '../components/TicTacToe';
 import PigLatin from '../components/PigLatin';
-import { Button, Input, Label, Modal, ModalHeader, ModalBody, ModalFooter, Card, CardBody, CardText, CardTitle, CardSubtitle } from "reactstrap"
+import { Button, Input, Label, Modal, ModalHeader, ModalBody, ModalFooter, Card, CardBody, CardText, CardTitle, CardSubtitle, CardImg } from "reactstrap"
 
 const Projects = (args) => {
   const [modal, setModal] = useState(false)
@@ -26,7 +27,7 @@ const Projects = (args) => {
           </CardBody> */}
             <CardBody>
               <CardText>
-                A Fullstack beer community/review application using React, Ruby on Rails and PostgreSQL.
+              A Fullstack beer community/review application is a comprehensive platform designed for beer enthusiasts. Built using React for dynamic user interfaces, Ruby on Rails for robust backend functionality, and PostgreSQL for efficient data management, this application provides a seamless experience for users to explore, share, and review a wide variety of craft beers. Users can connect with like-minded beer lovers, post reviews, and dive into the rich world of craft brews. It's the ultimate destination for beer aficionados looking to discover and discuss their favorite beverages.
               </CardText>
               <CardText>
                 Full functionality with CRUD.
@@ -47,7 +48,7 @@ const Projects = (args) => {
           <Card color="" style={{ width: '50rem' }}>
             <CardBody>
               <CardText>
-                This is a Web game for two players on the same screen taking turns.
+              This is a classic Tic-Tac-Toe game designed for two players to enjoy on the same screen. The game offers a simple yet engaging experience, with players taking turns to compete in this age-old battle of Xs and Os. It's a perfect way to have fun and test your strategic skills against a friend or family member without the need for any installations or downloads.
               </CardText>
             </CardBody>
             <CardBody>
@@ -59,12 +60,12 @@ const Projects = (args) => {
       <br />
 
       <div className="Project">
-        <u><h2>Pig Latin</h2></u>
+        <u><h2>Pig Latin Translator</h2></u>
         <div className='cards'>
           <Card color="" style={{ width: '50rem' }}>
             <CardBody>
               <CardText>
-                Translates the user input into Pig Latin.
+              This is a handy Pig Latin translator that takes user input and converts it into Pig Latin. Whether you want to have some fun with language or simply explore the quirky world of Pig Latin, this tool provides a quick and easy way to translate your text into this playful and entertaining language.
               </CardText>
             </CardBody>
             <CardBody>
@@ -81,7 +82,7 @@ const Projects = (args) => {
           <Card color="" style={{ width: '50rem' }}>
             <CardBody>
               <CardText>
-                Generates a random password using an existing password while keeping the same number of caps, numbers and special characters. Only the letters will be generated randomly.
+              This password generator is designed to enhance your password security while retaining the familiarity of your existing passwords. It creates random passwords by shuffling the letters while keeping the same number of capital letters, numbers, and special characters. This way, you can enjoy stronger password protection without the hassle of memorizing completely new passwords.
               </CardText>
             </CardBody>
             <CardBody>
@@ -98,7 +99,7 @@ const Projects = (args) => {
           <Card color="" style={{ width: '50rem' }}>
             <CardBody>
               <CardText>
-                Text based game using Ruby.
+              This text-based game is a Ruby-based adventure that unfolds through your terminal. Immerse yourself in an interactive narrative where your choices shape the story's outcome. Will you be the hero or make choices that lead to unforeseen consequences? Test your decision-making skills and enjoy a captivating gaming experience in a purely text-based format.
               </CardText>
             </CardBody>
             <CardBody>
@@ -116,7 +117,7 @@ const Projects = (args) => {
           <Card color="" style={{ width: '50rem' }}>
             <CardBody>
               <CardText>
-                Ruby on Rails Full Stack application where the user can create and delete blog post.
+              This Ruby on Rails Full Stack application empowers users to create and delete blog posts effortlessly. Whether you're a blogger, writer, or content enthusiast, you can easily manage your content with a straightforward interface. Share your thoughts, ideas, or stories with the world and maintain complete control over your posts through simple deletion options.
               </CardText>
             </CardBody>
             <CardBody>
@@ -134,7 +135,7 @@ const Projects = (args) => {
           <Card color="" style={{ width: '50rem' }}>
             <CardBody>
               <CardText>
-                A Fullstack dating application using React, Ruby on Rails and PostgreSQL.
+              Step into the imaginative world of our Fullstack dating application, where you can connect with fictional characters for a playful and enjoyable dating experience. This app, powered by React, Ruby on Rails, and PostgreSQL, lets you explore a unique dating adventure with fictional profiles. Swipe, match, chat, and embark on fun interactions with fictional characters to make your dating journey a delightful experience.
               </CardText>
             </CardBody>
             <CardBody>
@@ -156,7 +157,7 @@ const Projects = (args) => {
           <Card color="" style={{ width: '50rem' }}>
             <CardBody>
               <CardText>
-                A Fullstack home buying application using React, Ruby on Rails and PostgreSQL.
+              This Fullstack app using React, Ruby on Rails, and PostgreSQL. It showcases full CRUD functionality. Allowing users to explore, login, sign out, create, modify, and remove imaginary home listings.
               </CardText>
             </CardBody>
             <CardBody>
@@ -168,6 +169,7 @@ const Projects = (args) => {
             </CardBody>
           </Card>
         </div>
+        <br />
 
         <div className="Project">
           <u><h2>To Do List</h2></u>
@@ -175,12 +177,58 @@ const Projects = (args) => {
             <Card color="" style={{ width: '50rem' }}>
               <CardBody>
                 <CardText>
-                  Basic application where the user can make a to do list using Python.
+                A simple and straightforward to-do list application built with Python. Create and manage your tasks effortlessly.
                 </CardText>
               </CardBody>
               <CardBody>
                 <Button color="danger" href="https://github.com/Mikechavo/To_do_list_python">
                   Source Code</Button>
+              </CardBody>
+            </Card>
+          </div>
+        </div>
+        <br />
+
+        <div className="Project">
+          <u><h2>Gradio-Based Browser Interface for Stable Diffusion</h2></u>
+          <div className='cards'>
+            <Card color="" style={{ width: '50rem' }}>
+              <CardBody>
+              <b><CardTitle>
+                   Description:
+                </CardTitle></b>
+                <CardText>
+                This project involves a browser interface built with the Gradio library that provides a user-friendly front-end to interact with Stable Diffusion, a cutting-edge machine learning technique. While I didn't create the original repository, I have actively contributed to it by collaborating and learning from experienced developers. Through collaboration on this project, I've gained valuable experience in machine learning and deep learning techniques, particularly in the context of generative models. This project has equipped me with skills and knowledge that I continue to apply in my work. Please note that this is a collaborative effort, and the original repository can be found 
+                <Button color="success" href="https://github.com/AUTOMATIC1111/stable-diffusion-webui">here</Button>
+                <b><CardTitle>
+                  Key Features:
+                </CardTitle></b>
+                <u><CardTitle>txt2img and img2img Modes:</CardTitle></u>
+                  The interface supports both original txt2img and img2img modes for image generation.
+                <u><CardTitle>Ease of Use:</CardTitle></u>
+                    With a one-click install and run script, this interface streamlines the process for running Stable Diffusion. However, Python and Git must be installed.
+                    <u><CardTitle>Various Image Generation Techniques:</CardTitle></u>
+               You can use it for outpainting, inpainting, color sketching, prompt matrix, stable diffusion upscale, and more.
+               <u><CardTitle>Advanced Customization:</CardTitle></u>
+               The interface allows you to specify parts of text for the model to focus on, as well as offering options like loopback, X/Y/Z plot, textual inversion, and more.
+               <u><CardTitle> Extensions:</CardTitle></u>
+               Additional features like GPT-4 compatibility, custom prompts, and high-res image production are supported.
+               <u><CardTitle>API Support:</CardTitle></u>
+               It's compatible with RunwayML's inpainting model and offers an Aesthetic Gradients feature for generating images with specific aesthetics.
+                </CardText>
+              </CardBody>
+              <CardBody>
+              <CardImg
+      alt="Card image cap"
+      src={stable}
+      style={{
+        height: 500
+      }}
+      top
+      width="100%"
+    />
+                <Button color="danger" href="https://github.com/Mikechavo/stable-diffusion-webui">
+                  Forked Repo</Button>
               </CardBody>
             </Card>
           </div>
