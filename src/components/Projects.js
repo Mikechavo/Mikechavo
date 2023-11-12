@@ -43,6 +43,27 @@ const Projects = (args) => {
       <br />
 
       <div className="Project">
+        <u><h2>My Favorite Anime</h2></u>
+        <div className='cards'>
+          <Card color="" style={{ width: '50rem' }}>
+            {/* <CardBody>
+          
+          </CardBody> */}
+            <CardBody>
+              <CardText>
+              A Frontend application with a list of my favorite anime. Using React, Javascript, Reactstrap and Bootstrap. This is still a work in progress, a fun application I'm building for reference.
+              </CardText>
+            </CardBody>
+            <CardBody>
+              <Button color="danger" href="https://my-favorite-anime.netlify.app/">
+                Live Site</Button>
+            </CardBody>
+          </Card>
+        </div>
+      </div>
+      <br />
+
+      <div className="Project">
         <u><h2>Tic-Tac-Toe</h2></u>
         <div className='cards'>
           <Card color="" style={{ width: '50rem' }}>
