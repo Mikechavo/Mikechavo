@@ -16,40 +16,47 @@ import jquery from '../icons/jquery.png';
 import Postgresql from '../icons/Postgresql.png';
 import haml from '../icons/haml.png';
 import python_logo from '../icons/python-logo.png';
+import flask from '../icons/flask.png';
 
 const Skill = () => {
   return (
-   
+
     <div className="container">
-    <div className="Skills">
-     
+      <div className="Skills">
 
-      <div border="1">
-        <img src={js_logo}></img>
-        <img src={jquery}></img>
-        <img src={react_logo}></img>
-        <img src={haml}></img>
-      </div>
 
-      <div border="1">
-        <img src={html_logo}></img>
-        <img src={css_logo}></img>
-        <img src={ruby_logo}></img>
-        <img src={rails_logo}></img>
-      </div>
+        <div border="1">
+          <img src={js_logo}></img>
+          <img src={jquery}></img>
+          <img src={react_logo}></img>
+          <img src={haml}></img>
+        </div>
 
-      <div border="1">
-        <img src={python_logo}></img>
-        <img src={Postgresql}></img>
-        <img src={sql_logo}></img>
-        <img src={gas_logo}></img>
-      </div>
-      <div border="1">
-        <img src={c_logo}></img>
-        <img src={jest_logo}></img>
-        <img src={rspec_logo}></img>
-        <img src={github}></img>
-      </div>
+        <div border="1">
+          <img src={html_logo}></img>
+          <img src={css_logo}></img>
+          <img src={ruby_logo}></img>
+          <img src={rails_logo}></img>
+        </div>
+
+        <div border="1">
+          <img src={python_logo}></img>
+          <img src={flask}></img>
+          <img src={Postgresql}></img>
+          <img src={sql_logo}></img>
+        </div>
+        <div border="1">
+          <img src={gas_logo}></img>
+          <img src={c_logo}></img>
+          <img src={jest_logo}></img>
+          <img src={rspec_logo}></img>
+
+        </div>
+        <div border="1">
+          <img src={github}></img>
+        </div>
+
+
       </div>
       {/* <img id="myimage" src="https://mikechavo.carrd.co/assets/images/image02.jpg?v=8cf942e5" alt="AI picture of me"></img> */}
     </div>
