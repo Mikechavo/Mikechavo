@@ -17,6 +17,7 @@ import Postgresql from '../icons/Postgresql.png';
 import haml from '../icons/haml.png';
 import python_logo from '../icons/python-logo.png';
 import flask from '../icons/flask.png';
+import bootstrap from '../icons/bootstrap.png';
 
 const Skill = () => {
   return (
@@ -29,7 +30,7 @@ const Skill = () => {
           <img src={js_logo}></img>
           <img src={jquery}></img>
           <img src={react_logo}></img>
-          <img src={haml}></img>
+          <img src={bootstrap}></img>
         </div>
 
         <div border="1">
@@ -53,6 +54,7 @@ const Skill = () => {
 
         </div>
         <div border="1">
+          <img src={haml}></img>
           <img src={github}></img>
         </div>
 
