@@ -235,6 +235,18 @@
     max-width: 100%; 
   }
 
+  .Skills {
+    display:flexbox;
+   flex-wrap: wrap;
+   max-width: 100%; 
+   /* border: 5px solid #555; */
+  }
+  .Skills img {
+    width: 80px; /* Adjust the width as needed */
+    height: 80px; /* Adjust the height as needed */
+    max-width: 100%; 
+  }
+
   /* ==> */
  
 
@@ -298,7 +310,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 40vh;
+    height: 60vh;
     overflow: hidden;
   }
   
@@ -313,6 +325,7 @@
     /* background-color: rgba(255, 255, 255, 0.2); */
     border-radius: 8px;
   }
+
 
   .Contact {
     display: flex;
