@@ -2,6 +2,11 @@ import React, { useState } from 'react';
 import arrow from '../icons/arrow.png';
 import army_image from '../icons/army_image.jpg';
 import stable from '../icons/stable.png';
+import PintPal from '../icons/PintPal.png'
+import TicTac from '../icons/TicTac.png'
+import JJK from '../icons/JJK.png'
+import Pig from '../icons/Pig.png'
+import Password from '../icons/Password.png'
 import '../App.css';
 import PasswordGen from '../components/PasswordGen';
 import TicTacToe from '../components/TicTacToe';
@@ -36,6 +41,15 @@ const Projects = (args) => {
             <CardBody>
               <Button color="danger" href="https://pintpal.onrender.com/">
                 Live Site</Button>
+                <CardImg
+      alt="Card image cap"
+      src={PintPal}
+      style={{
+        height: 500
+      }}
+      top
+      width="100%"
+    />
             </CardBody>
           </Card>
         </div>
@@ -57,6 +71,15 @@ const Projects = (args) => {
             <CardBody>
               <Button color="danger" href="https://my-favorite-anime.netlify.app/">
                 Live Site</Button>
+                <CardImg
+      alt="Card image cap"
+      src={JJK}
+      style={{
+        height: 500
+      }}
+      top
+      width="100%"
+    />
             </CardBody>
           </Card>
         </div>
@@ -75,6 +98,15 @@ const Projects = (args) => {
             <CardBody>
               <TicTacToe />
             </CardBody>
+            <CardImg
+      alt="Card image cap"
+      src={TicTac}
+      style={{
+        height: 500
+      }}
+      top
+      width="100%"
+    />
           </Card>
         </div>
       </div>
@@ -92,6 +124,15 @@ const Projects = (args) => {
             <CardBody>
               <PigLatin />
             </CardBody>
+            <CardImg
+      alt="Card image cap"
+      src={Pig}
+      style={{
+        height: 500
+      }}
+      top
+      width="100%"
+    />
           </Card>
         </div>
       </div>
@@ -109,6 +150,15 @@ const Projects = (args) => {
             <CardBody>
               <PasswordGen />
             </CardBody>
+            <CardImg
+      alt="Card image cap"
+      src={Password}
+      style={{
+        height: 500
+      }}
+      top
+      width="100%"
+    />
           </Card>
         </div>
       </div>

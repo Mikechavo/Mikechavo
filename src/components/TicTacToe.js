@@ -58,6 +58,7 @@ const TicTacToe = (args) => {
 
   return (
     <>
+    
     <Button color="danger" onClick={toggle}>Demo</Button>
         <Modal isOpen={modal} toggle={toggle} {...args}>
           <ModalBody>
