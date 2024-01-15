@@ -7,6 +7,7 @@ import TicTac from '../icons/TicTac.png'
 import JJK from '../icons/JJK.png'
 import Pig from '../icons/Pig.png'
 import Password from '../icons/Password.png'
+import FitFolio from '../icons/fitFolio.png'
 import '../App.css';
 import PasswordGen from '../components/PasswordGen';
 import TicTacToe from '../components/TicTacToe';
@@ -74,6 +75,41 @@ const Projects = (args) => {
                 <CardImg
       alt="Card image cap"
       src={JJK}
+      style={{
+        height: 500
+      }}
+      top
+      width="100%"
+    />
+            </CardBody>
+          </Card>
+        </div>
+      </div>
+      <br />
+
+      <div className="Project">
+        <u><h2>FitFolio</h2></u>
+        <div className='cards'>
+          <Card color="" style={{ width: '50rem' }}>
+            {/* <CardBody>
+          
+          </CardBody> */}
+            <CardBody>
+              <CardText>
+              A Fullstack application using React, Javascript, Reactstrap, PostgreSQL and Ruby on Rails that allows you to craft your perfect workout with Fitfolio! Tailor routines to your goals, choose from a variety of exercises, and track progress effortlessly. User-friendly, flexible, and designed for your fitness journey. Stay tuned in for updates as I refine and enhance this fitness journey companion! 
+              </CardText>
+            </CardBody>
+            <CardBody>
+            <CardBody>
+              <Button color="danger" href="https://github.com/Mikechavo/workout_frontend">
+                Frontend Source Code</Button>
+            </CardBody>
+            <CardBody>
+              <Button color="danger" href="https://github.com/Mikechavo/workout_backend">Backend Source Code</Button>
+            </CardBody>
+                <CardImg
+      alt="Card image cap"
+      src={FitFolio}
       style={{
         height: 500
       }}
