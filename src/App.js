@@ -89,6 +89,7 @@ import Skill from './components/Skill';  // Check the path
 import Journey from './components/Journey';
 import Projects from './components/Projects';
 import HomePage from './components/HomePage';
+import Resume from './components/Resume';
 import github from './icons/github.png';
 import linkedin from './icons/linkedin.png';
 import emailLogo from './icons/emailLogo.png';
@@ -108,6 +109,7 @@ const App = (args) => {
     { title: 'Skills', content: <Skill /> },
     { title: 'My Journey', content: <Journey /> },
     { title: 'Projects', content: <Projects /> },
+    { title: 'Resume', content: <Resume /> },
     {
       title: 'Contact Me', content:
         <>

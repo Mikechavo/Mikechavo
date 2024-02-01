@@ -6,6 +6,7 @@ import linkedin from '../icons/linkedin.png';
 import emailLogo from '../icons/emailLogo.png';
 
 
+
 const HomePage = () => {
   return (
 
