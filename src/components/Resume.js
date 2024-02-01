@@ -6,8 +6,9 @@ import { Card, Button, Input, Label, Modal, ModalHeader, ModalBody, ModalFooter,
 const Resume = () => {
   const resumePath = process.env.PUBLIC_URL + '/resume/MichaelChavez_Resume_Jan_2024.pdf';
   return (
-    <section>
-      <div className='cards'>
+   
+    <section className='container'>
+      <div className='Skills'>
             <Document file={resumePath}>
               <Page pageNumber={1} />
             </Document>
