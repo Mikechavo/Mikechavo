@@ -8,13 +8,9 @@ const Resume = () => {
   return (
     <section>
       <div className='cards'>
-        <Card>
-          <CardBody>
             <Document file={resumePath}>
               <Page pageNumber={1} />
             </Document>
-        </CardBody>
-        </Card>
       </div>
     </section>
     
