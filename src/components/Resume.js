@@ -1,17 +1,22 @@
 // Import necessary components and styles
 import React from 'react';
 import { Document, Page } from 'react-pdf';
-import { Card, Button, Input, Label, Modal, ModalHeader, ModalBody, ModalFooter } from "reactstrap"
+import { Card, Button, Input, Label, Modal, ModalHeader, ModalBody, ModalFooter, CardBody } from "reactstrap"
 
 const Resume = () => {
   const resumePath = process.env.PUBLIC_URL + '/resume/MichaelChavez_Resume_Jan_2024.pdf';
   return (
-    <div className='cards'>
-      <Document file={resumePath}>
-        <Page pageNumber={1} />
-      </Document>
-      
-    </div>
+    <section>
+      <div className='cards'>
+        <Card>
+          <CardBody>
+            <Document file={resumePath}>
+              <Page pageNumber={1} />
+            </Document>
+        </CardBody>
+        </Card>
+      </div>
+    </section>
     
   );
 };

@@ -16,6 +16,14 @@
   background: linear-gradient(to right bottom, #858585, #525252); */
 }
 
+/* Media query for smaller screens */
+@media only screen and (max-width: 600px) {
+  .App {
+    font-size: 16px; /* Adjust font size for smaller screens */
+    /* Add more responsive styles as needed */
+  }
+}
+
 .homeImage {
   display: flex;
   align-items: center;
@@ -435,5 +443,19 @@
     /* height: 40vh; */
     overflow: hidden;
   }
+
+  /* Add these styles for better responsiveness */
+
+
+/* .resume-card {
+  width: 100%; 
+  max-width: 600px; 
+} */
+
+@media only screen and (max-width: 600px) {
+  .cards {
+    width: 100%; /* Adjust the width for smaller screens */
+  }
+}
 
   
