@@ -2,6 +2,7 @@
 import React from 'react';
 import { Document, Page } from 'react-pdf';
 import { Card, Button, Input, Label, Modal, ModalHeader, ModalBody, ModalFooter } from "reactstrap"
+import '../App.css';
 
 const Resume = () => {
   const resumePath = process.env.PUBLIC_URL + '/resume/MichaelChavez_Resume_Jan_2024.pdf';
