@@ -8,6 +8,8 @@ import JJK from '../icons/JJK.png'
 import Pig from '../icons/Pig.png'
 import Password from '../icons/Password.png'
 import FitFolio from '../icons/fitFolio.png'
+import PalH from '../icons/palHome.png'
+import PalD from '../icons/palData.png'
 import '../App.css';
 import PasswordGen from '../components/PasswordGen';
 import TicTacToe from '../components/TicTacToe';
@@ -120,6 +122,49 @@ const Projects = (args) => {
           </Card>
         </div>
       </div>
+      <br />
+
+      <div className="Project">
+  <u><h2>Mini-Paldex</h2></u>
+  <div className='cards'>
+    <Card color="" style={{ width: '50rem' }}>
+      <CardBody>
+        <CardText>
+          In this Fullstack application, I utilized Python and Django framework along with SQLite to develop the Mini-Paldex app. The application serves as a comprehensive reference for Palworld Pals, containing essential data such as type, skills, work, drops, and price for all Palworld creatures. One of the highlights of the project is the creation of a robust backend system that seamlessly imports data from a CSV file, providing a user-friendly interface for easy access to Pal information. This project showcases my skills in Fullstack development, data management, and creating a streamlined user experience.
+        </CardText>
+      </CardBody>
+      <CardBody>
+        <Button color="danger" href="https://github.com/Mikechavo/paldex">
+          Source Code</Button>
+      </CardBody>
+
+      <div className="row">
+        <div className="col-md-6">
+          <CardImg
+            alt="Card image cap"
+            src={PalH}
+            style={{
+              height: 500
+            }}
+            top
+            width="100%"
+          />
+        </div>
+        <div className="col-md-6">
+          <CardImg
+            alt="Card image cap"
+            src={PalD}
+            style={{
+              height: 500
+            }}
+            top
+            width="100%"
+          />
+        </div>
+      </div>
+    </Card>
+  </div>
+</div>
       <br />
 
       <div className="Project">
