@@ -10,6 +10,7 @@ import Password from '../icons/Password.png'
 import FitFolio from '../icons/fitFolio.png'
 import PalH from '../icons/palHome.png'
 import PalD from '../icons/palData.png'
+import Flare from '../icons/flare.png'
 import '../App.css';
 import PasswordGen from '../components/PasswordGen';
 import TicTacToe from '../components/TicTacToe';
@@ -154,6 +155,98 @@ const Projects = (args) => {
     <CardImg
       alt="Card image cap"
       src={PalD}
+      style={{
+        height: 500
+      }}
+      top
+      width="100%"
+    />
+            </CardBody>
+          </Card>
+        </div>
+      </div>
+      <br />
+
+      <div className="Project">
+        <u><h2>Project Flare:</h2></u>
+        <u><h2>Automated Candidate Management Tool at Uber</h2></u>
+        <div className='cards'>
+          <Card color="" style={{ width: '50rem' }}>
+            {/* <CardBody>
+          
+          </CardBody> */}
+            <CardBody>
+              <CardText>
+              I designed, developed, and launched Project Flare at Uber, a powerful automation tool utilizing Google Apps Script, Gsheets, Gmail, and integrated it seamlessly into an internal dashboard. My role involved conceptualizing the solution, overseeing the development process, and successfully launching the tool. Project Flare efficiently identified stale candidates in the recruitment pipeline and automated personalized emails to prompt Talent Acquisition (TA) team members for data hygiene reviews. This initiative significantly enhanced the efficiency and organization of Uber's talent acquisition processes.
+              </CardText>
+            </CardBody>
+
+            <CardTitle><strong>Key Contributions:</strong></CardTitle>
+
+            <CardBody>
+              <CardText>
+              <u>End-to-End Ownership:</u> Led the entire lifecycle of Project Flare, from conceptualization and design to development and successful deployment.
+              </CardText>
+            </CardBody>
+
+            <CardBody>
+              <CardText>
+              <u>Stale Candidate Identification:</u> Systematically designed the process for scrubbing candidate ownership data to accurately identify stale candidates.
+              </CardText>
+            </CardBody>
+
+            <CardBody>
+              <CardText>
+              <u>Automated Email Generation:</u> Orchestrated the automation of personalized emails sent to TA members, including critical candidate details and requisition information.
+              </CardText>
+            </CardBody>
+
+            <CardBody>
+              <CardText>
+              <u>Internal Dashboard Integration: </u>  Ensured seamless integration with an internal dashboard for real-time visibility into candidate hygiene initiatives.
+              </CardText>
+            </CardBody>
+
+            <CardTitle><strong>Impact:</strong></CardTitle>
+            <CardBody>
+              <CardText>
+              Project Flare stands as a testament to my ability to take ownership of complex projects, design effective automation solutions, and drive positive outcomes. The tool significantly streamlined Uber's recruitment pipeline, showcasing my proficiency in technology-driven process improvements.
+              </CardText>
+            </CardBody>
+
+            <CardTitle><strong>Technologies Used:</strong></CardTitle>
+            <CardBody>
+              <CardText>
+              Google Apps Script(HTML, CSS, Javascript)
+              </CardText>
+              <CardText>
+              SQL
+              </CardText>
+              <CardText>
+              Google Sheets
+              </CardText>
+              <CardText>
+              Gmail
+              </CardText>
+              <CardText>
+              Gmail
+              </CardText>
+              Internal Dashboard 
+            </CardBody>
+
+
+            <CardBody>
+            <CardBody>
+              <Button color="danger" href="https://github.com/Mikechavo/Project-Beacon-Flare-GAS/blob/main/flareGetEmail.js">
+                Source Code</Button>
+            </CardBody>
+            <CardBody>
+              <Button color="danger" href="https://docs.google.com/spreadsheets/d/1HIRP86Fj51r3kcNx-BltYzuDliUY_pO4gMQIVr3w6K4/edit#gid=913754463">
+                Demo</Button>
+            </CardBody>
+                <CardImg
+      alt="Card image cap"
+      src={Flare}
       style={{
         height: 500
       }}
