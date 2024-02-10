@@ -18,6 +18,8 @@ import haml from '../icons/haml.png';
 import python_logo from '../icons/python-logo.png';
 import flask from '../icons/flask.png';
 import bootstrap from '../icons/bootstrap.png';
+import django from '../icons/django.png';
+
 
 const Skill = () => {
   return (
@@ -43,17 +45,17 @@ const Skill = () => {
         <div border="1">
           <img src={python_logo}></img>
           <img src={flask}></img>
+          <img src={django}></img>
           <img src={Postgresql}></img>
-          <img src={sql_logo}></img>
         </div>
         <div border="1">
+        <img src={sql_logo}></img>
           <img src={gas_logo}></img>
           <img src={c_logo}></img>
           <img src={jest_logo}></img>
-          <img src={rspec_logo}></img>
-
         </div>
         <div border="1">
+          <img src={rspec_logo}></img>
           <img src={haml}></img>
           <img src={github}></img>
         </div>
