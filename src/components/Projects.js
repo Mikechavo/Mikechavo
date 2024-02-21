@@ -108,7 +108,7 @@ const Projects = (args) => {
                   Source Code</Button>
               </CardBody>
               <CardText>
-                Currently working on some compatibility issues with my RDBMS, Vercel, Ubuntu, Django and Python. Might migrate everything over from SQLite to PostgreSQL. Here is a link to my live site but due to compatibilty issues the database is currently not working.
+                Currently working on some compatibility issues with my RDBMS, Vercel, Ubuntu, Django and Python. Converted everything over from SQLite to PostgreSQL. Working on Pal database. User's can register and sign in and out. Here is a link to my live site but due to compatibilty issues the database is currently under maintenance and some features are unavailable.
               </CardText>
               <Button color="danger" href="https://paldex-omega.vercel.app/">
                 Live Site</Button>
