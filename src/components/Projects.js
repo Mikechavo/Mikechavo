@@ -107,6 +107,9 @@ const Projects = (args) => {
                 <Button color="danger" href="https://github.com/Mikechavo/paldex">
                   Source Code</Button>
               </CardBody>
+              <CardText>
+                Currently working on some compatibility issues with my RDBMS, Vercel, Ubuntu, Django and Python. Might migrate everything over from SQLite to PostgreSQL. Here is a link to my live site but due to compatibilty issues the database is currently not working.
+              </CardText>
               <Button color="danger" href="https://paldex-omega.vercel.app/">
                 Live Site</Button>
               <CardImg
