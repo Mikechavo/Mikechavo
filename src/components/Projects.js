@@ -27,6 +27,45 @@ const Projects = (args) => {
 
     <section id='Projects1' className='projects-section'>
       <h1 className='projectsTitle'>Projects</h1>
+
+      <div className="Project">
+        <u><h2>Mini-Paldex</h2></u>
+        <div className='cards'>
+          <Card color="" style={{ width: '50rem' }}>
+            {/* <CardBody>
+          
+          </CardBody> */}
+            <CardBody>
+              <CardText>
+                In this Fullstack application, I utilized Python, Django framework, and Bootstrap along with PostgreSQL to develop the Mini-Paldex app. The application serves as a comprehensive reference for Palworld Pals, containing essential data such as type, skills, work, drops, and price for all Palworld creatures. This website allows you to sign up and log in into your own Mini-Paldex so you can create as many combonations of Fire Teams of 5. One of the highlights of the project is the creation of a robust backend system  that seamlessly handles data storage and retrieval, ensuring a smooth user experience. This project showcases my skills in Fullstack development, data management, and creating a streamlined user experience
+              </CardText>
+              <CardText>
+                Full functionality with CRUD.
+              </CardText>
+            </CardBody>
+            <CardBody>
+              <CardBody>
+                <Button color="danger" href="https://github.com/Mikechavo/paldex">
+                  Source Code</Button>
+              </CardBody>
+              <Button color="danger" href="https://paldex-seven.vercel.app/">
+                Live Site</Button>
+              <CardImg
+                alt="Card image cap"
+                src={PalH}
+                style={{
+                  height: 500
+                }}
+                top
+                width="100%"
+              />
+              <CardBody></CardBody>
+            </CardBody>
+          </Card>
+        </div>
+      </div>
+      <br />
+
       <div className="Project">
         <u><h2>PintPal</h2></u>
         <div className='cards'>
@@ -69,7 +108,7 @@ const Projects = (args) => {
           </CardBody> */}
             <CardBody>
               <CardText>
-                A Frontend application with a list of my favorite anime. Using React, Javascript, Reactstrap and Bootstrap. This is still a work in progress, a fun application I'm building for reference.
+              My Favorite Anime is a frontend application that showcases a curated list of my favorite anime titles. Developed using React, JavaScript, Reactstrap, and Bootstrap, this project is a passion project. As an anime enthusiast and frontend developer, My Favorite Anime serves as both a personal reference and a showcase of my skills. It's a fun project that allows me to combine my passion for anime with my expertise in frontend development.
               </CardText>
             </CardBody>
             <CardBody>
@@ -78,50 +117,6 @@ const Projects = (args) => {
               <CardImg
                 alt="Card image cap"
                 src={JJK}
-                style={{
-                  height: 500
-                }}
-                top
-                width="100%"
-              />
-            </CardBody>
-          </Card>
-        </div>
-      </div>
-      <br />
-
-      <div className="Project">
-        <u><h2>Mini-Paldex</h2></u>
-        <div className='cards'>
-          <Card color="" style={{ width: '50rem' }}>
-            {/* <CardBody>
-          
-          </CardBody> */}
-            <CardBody>
-              <CardText>
-                In this Fullstack application, I utilized Python and Django framework along with SQLite to develop the Mini-Paldex app. The application serves as a comprehensive reference for Palworld Pals, containing essential data such as type, skills, work, drops, and price for all Palworld creatures. This website allows you to sign up and log in into your own Mini-Paldex so you can create as many combonations of Fire Teams of 5. One of the highlights of the project is the creation of a robust backend system that seamlessly imports data from a CSV file, providing a user-friendly interface for easy access to Pal information. This project showcases my skills in Fullstack development, data management, and creating a streamlined user experience
-              </CardText>
-            </CardBody>
-            <CardBody>
-              <CardBody>
-                <Button color="danger" href="https://github.com/Mikechavo/paldex">
-                  Source Code</Button>
-              </CardBody>
-              <Button color="danger" href="https://paldex-seven.vercel.app/">
-                Live Site</Button>
-              <CardImg
-                alt="Card image cap"
-                src={PalH}
-                style={{
-                  height: 500
-                }}
-                top
-                width="100%"
-              />
-              <CardBody></CardBody>
-              <CardImg
-                alt="Card image cap"
-                src={PalD}
                 style={{
                   height: 500
                 }}
