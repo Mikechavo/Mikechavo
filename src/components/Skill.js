@@ -19,6 +19,9 @@ import python_logo from '../icons/python-logo.png';
 import flask from '../icons/flask.png';
 import bootstrap from '../icons/bootstrap.png';
 import django from '../icons/django.png';
+import java from '../icons/java.png';
+import pytorch from '../icons/pytorch.png';
+import stableDiffusion from '../icons/stableDiffusion.webp';
 
 
 const Skill = () => {
@@ -36,34 +39,44 @@ const Skill = () => {
         </div>
 
         <div border="1">
-          <img src={html_logo}></img>
-          <img src={css_logo}></img>
-          <img src={ruby_logo}></img>
-          <img src={rails_logo}></img>
-        </div>
-
-        <div border="1">
           <img src={python_logo}></img>
           <img src={flask}></img>
           <img src={django}></img>
-          <img src={Postgresql}></img>
+          <img src={pytorch}></img>
         </div>
+
         <div border="1">
-        <img src={sql_logo}></img>
-          <img src={gas_logo}></img>
+          <img src={ruby_logo}></img>
+          <img src={rails_logo}></img>
+          <img src={java}></img>
           <img src={c_logo}></img>
-          <img src={jest_logo}></img>
+        </div>
+
+        <div border="1">
+          <img src={Postgresql}></img>
+          <img src={sql_logo}></img>
+          <img src={html_logo}></img>
+          <img src={css_logo}></img>
         </div>
         <div border="1">
-          <img src={rspec_logo}></img>
           <img src={haml}></img>
+          <img src={jest_logo}></img>
+          <img src={rspec_logo}></img>
+          <img src={gas_logo}></img>
+        </div>
+
+        <div border="1">
           <img src={github}></img>
         </div>
 
+        <div className='bigskill'>
+          <img src={stableDiffusion}></img>
+        </div>
 
       </div>
       {/* <img id="myimage" src="https://mikechavo.carrd.co/assets/images/image02.jpg?v=8cf942e5" alt="AI picture of me"></img> */}
     </div>
+    
   )
 }
 

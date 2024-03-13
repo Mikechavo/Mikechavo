@@ -9,7 +9,7 @@ import Pig from '../icons/Pig.png'
 import Password from '../icons/Password.png'
 import FitFolio from '../icons/fitFolio.png'
 import PalH from '../icons/palHome.png'
-import PalD from '../icons/palData.png'
+import PcPart from '../icons/pcPart.png'
 import Flare from '../icons/flare.png'
 import '../App.css';
 import PasswordGen from '../components/PasswordGen';
@@ -120,6 +120,38 @@ const Projects = (args) => {
                 style={{
                   height: 500
                 }}
+                top
+                width="100%"
+              />
+            </CardBody>
+          </Card>
+        </div>
+      </div>
+      <br />
+
+      <div className="Project">
+        <u><h2>PC Part Inventory Management System</h2></u>
+        <div className='cards'>
+          <Card color="" style={{ width: '50rem' }}>
+            {/* <CardBody>
+          
+          </CardBody> */}
+            <CardBody>
+              <CardText>
+              The PC Part Inventory Management System is a Java application aimed at improving my Java programming skills. It utilizes JavaFX for a user-friendly interface displaying essential details of PC parts, such as ID, name, brand, quantity, and price. Developed independently, the project focuses on JavaFX GUI development, object-oriented programming, and data modeling. While still a work in progress, future plans include implementing CRUD operations, data persistence, and search/filtering functionalities. Open to collaboration and feedback, the project serves as a practical learning experience to deepen my understanding of Java programming concepts and software development principles.
+              </CardText>
+            </CardBody>
+            <CardBody>
+              <CardBody>
+                <Button color="danger" href="https://github.com/Mikechavo/PcInventoryManagement">
+                  GUI Source Code</Button>
+              </CardBody>
+              <CardImg
+                alt="Card image cap"
+                src={PcPart}
+                // style={{
+                //   height: 500
+                // }}
                 top
                 width="100%"
               />
