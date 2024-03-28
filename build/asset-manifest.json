@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Mikechavo/static/css/main.a991355b.css",
-    "main.js": "/Mikechavo/static/js/main.2fa40616.js",
+    "main.js": "/Mikechavo/static/js/main.6e53c08a.js",
     "static/js/787.1ed0c42c.chunk.js": "/Mikechavo/static/js/787.1ed0c42c.chunk.js",
     "static/media/PintPal.png": "/Mikechavo/static/media/PintPal.de6aae71564c3fd88d82.png",
     "static/media/JJK.png": "/Mikechavo/static/media/JJK.72bf5b1ec5837e2ab51e.png",
@@ -24,6 +24,7 @@
     "static/media/ruby_logo.png": "/Mikechavo/static/media/ruby_logo.97331365f34dc351f279.png",
     "static/media/TicTac.png": "/Mikechavo/static/media/TicTac.86b95de8dfb5ca86b590.png",
     "static/media/django.png": "/Mikechavo/static/media/django.1dd4a6731ff82c516038.png",
+    "static/media/tabs.png": "/Mikechavo/static/media/tabs.ead38e0a644100874b0d.png",
     "static/media/rspec_logo.png": "/Mikechavo/static/media/rspec_logo.b2586deb682936ebd9f8.png",
     "static/media/Pig.png": "/Mikechavo/static/media/Pig.0916f081c8bd775d4ad5.png",
     "static/media/linkedin.png": "/Mikechavo/static/media/linkedin.c98fb3b64eecd80d2ca1.png",
@@ -37,11 +38,11 @@
     "static/media/bootstrap.png": "/Mikechavo/static/media/bootstrap.9665c440214bdf00146d.png",
     "index.html": "/Mikechavo/index.html",
     "main.a991355b.css.map": "/Mikechavo/static/css/main.a991355b.css.map",
-    "main.2fa40616.js.map": "/Mikechavo/static/js/main.2fa40616.js.map",
+    "main.6e53c08a.js.map": "/Mikechavo/static/js/main.6e53c08a.js.map",
     "787.1ed0c42c.chunk.js.map": "/Mikechavo/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a991355b.css",
-    "static/js/main.2fa40616.js"
+    "static/js/main.6e53c08a.js"
   ]
 }

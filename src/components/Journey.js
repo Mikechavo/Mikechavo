@@ -32,7 +32,7 @@ const Journey = () => {
       <br />
       <br />
       <u><h2>University of Maryland Global Campus</h2></u>
-      <p>2017 - 2018</p>
+      
       <img id="myimage" src={army_image} alt="Army picture of me"></img>
       <br />
       <br />
@@ -51,7 +51,7 @@ const Journey = () => {
       <br />
 
       <u><h2>Uber</h2></u>
-      <p>2021 - 2023</p>
+      
       <div className='cards'>
         <Card color="" style={{ width: '50rem' }}>
           {/* <CardBody>
@@ -71,7 +71,7 @@ const Journey = () => {
       <br />
 
       <u><h2>LEARN Academy</h2></u>
-      <p>2023 - 2023</p>
+      
       <div className='cards'>
         <Card color="" style={{ width: '50rem' }}>
           {/* <CardBody>
@@ -91,7 +91,7 @@ const Journey = () => {
       <br />
 
       <u><h2>Ceatus Media Group</h2></u>
-      <p>2023 - 2023</p>
+      
       <div className='cards'>
         <Card color="" style={{ width: '50rem' }}>
           {/* <CardBody>
