@@ -26,7 +26,8 @@ const HomePage = () => {
           {/* </section> */}
           <div >
           <h1>Hi. I'm Mike.</h1>
-          <p>I'm a Full Stack Developer.</p>
+          <p>Talent Acquisition Specialist</p>
+          <p>Full Stack Developer</p>
         </div>
 
         <a>
