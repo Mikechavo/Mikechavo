@@ -29,6 +29,34 @@ const Projects = (args) => {
     <section id='Projects1' className='projects-section'>
       <h1 className='projectsTitle'>Projects</h1>
 
+
+      <div className="Project">
+        <u><h2>New Revised Portfolio</h2></u>
+        <div className='cards'>
+          <Card color="" style={{ width: '50rem' }}>
+            <CardBody>
+              <CardText>
+                🚀 Exciting News! 🚀
+                </CardText>
+                <CardText>
+                 I'm thrilled to share that I'm currently in the process of rebuilding my portfolio website!
+
+                his time around, I'm diving deep into TypeScript and Tailwind CSS to enhance my skills and take my projects to the next level. 
+
+                It's amazing to see how far I've come from my old React.js Bootstrap portfolio. With every line of code, I'm not just building a website – I'm building my future! 
+
+                Stay tuned for updates as I continue this journey of growth and development. Let's code together! 
+              </CardText>
+            </CardBody>
+            <CardBody>
+              <Button color="danger" href="https://mikethevets-portfolio.vercel.app/#/">
+                Live Site</Button>
+            </CardBody>
+          </Card>
+        </div>
+      </div>
+      <br />
+
       <div className="Project">
         <u><h2>Mini-Paldex</h2></u>
         <div className='cards'>
@@ -109,7 +137,7 @@ const Projects = (args) => {
           </CardBody> */}
             <CardBody>
               <CardText>
-              My Favorite Anime is a frontend application that showcases a curated list of my favorite anime titles. Developed using React, JavaScript, Reactstrap, and Bootstrap, this project is a passion project. As an anime enthusiast and frontend developer, My Favorite Anime serves as both a personal reference and a showcase of my skills. It's a fun project that allows me to combine my passion for anime with my expertise in frontend development.
+                My Favorite Anime is a frontend application that showcases a curated list of my favorite anime titles. Developed using React, JavaScript, Reactstrap, and Bootstrap, this project is a passion project. As an anime enthusiast and frontend developer, My Favorite Anime serves as both a personal reference and a showcase of my skills. It's a fun project that allows me to combine my passion for anime with my expertise in frontend development.
               </CardText>
             </CardBody>
             <CardBody>
@@ -139,7 +167,7 @@ const Projects = (args) => {
           </CardBody> */}
             <CardBody>
               <CardText>
-              The PC Part Inventory Management System is a Java application aimed at improving my Java programming skills. It utilizes JavaFX for a user-friendly interface displaying essential details of PC parts, such as ID, name, brand, quantity, and price. Developed independently, the project focuses on JavaFX GUI development, object-oriented programming, and data modeling. While still a work in progress, future plans include implementing full CRUD operations and data persistence. Open to collaboration and feedback, the project serves as a practical learning experience to deepen my understanding of Java programming concepts and software development principles.
+                The PC Part Inventory Management System is a Java application aimed at improving my Java programming skills. It utilizes JavaFX for a user-friendly interface displaying essential details of PC parts, such as ID, name, brand, quantity, and price. Developed independently, the project focuses on JavaFX GUI development, object-oriented programming, and data modeling. While still a work in progress, future plans include implementing full CRUD operations and data persistence. Open to collaboration and feedback, the project serves as a practical learning experience to deepen my understanding of Java programming concepts and software development principles.
               </CardText>
             </CardBody>
             <CardBody>
