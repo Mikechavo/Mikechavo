@@ -3,7 +3,7 @@ import { Document, Page } from 'react-pdf';
 import { Card, Button, Input, Label, Modal, ModalHeader, ModalBody, ModalFooter, CardBody } from "reactstrap";
 
 const Resume = () => {
-  const resumePath = process.env.PUBLIC_URL + '/resume/MichaelChavez_Resume_mar_2024.pdf';
+  const resumePath = process.env.PUBLIC_URL + '/resume/MichaelChavez_Resume_Mar_2024_Design_new.pdf';
   
   return (
     <section className='container'>
