@@ -49,7 +49,7 @@ const Projects = (args) => {
               </CardText>
             </CardBody>
             <CardBody>
-              <Button color="danger" href="https://mike-thevet-porfolio.vercel.app/">
+              <Button color="danger" href="https://mikethevet.vercel.app/">
                 Live Site</Button>
             </CardBody>
           </Card>
