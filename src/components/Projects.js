@@ -49,7 +49,7 @@ const Projects = (args) => {
               </CardText>
             </CardBody>
             <CardBody>
-              <Button color="danger" href="https://mikechavezportfolio.netlify.app/">
+              <Button color="danger" href="https://veteranmike.netlify.app/">
                 Live Site</Button>
             </CardBody>
           </Card>
