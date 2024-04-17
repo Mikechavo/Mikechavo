@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Mikechavo/static/css/main.a991355b.css",
-    "main.js": "/Mikechavo/static/js/main.65006ad8.js",
+    "main.js": "/Mikechavo/static/js/main.04c85f83.js",
     "static/js/787.1ed0c42c.chunk.js": "/Mikechavo/static/js/787.1ed0c42c.chunk.js",
     "static/media/PintPal.png": "/Mikechavo/static/media/PintPal.de6aae71564c3fd88d82.png",
     "static/media/JJK.png": "/Mikechavo/static/media/JJK.72bf5b1ec5837e2ab51e.png",
@@ -11,6 +11,7 @@
     "static/media/stable.png": "/Mikechavo/static/media/stable.f8e9f9ed3d585ab11bbb.png",
     "static/media/flask.png": "/Mikechavo/static/media/flask.1dfb0a77f9428d1882eb.png",
     "static/media/Postgresql.png": "/Mikechavo/static/media/Postgresql.1b904635aedb7c19150d.png",
+    "static/media/new.png": "/Mikechavo/static/media/new.3061559816acccc629cf.png",
     "static/media/python-logo.png": "/Mikechavo/static/media/python-logo.dc906e9aa21b2a930657.png",
     "static/media/c_logo.png": "/Mikechavo/static/media/c_logo.64f637357bce0ccc8384.png",
     "static/media/java.png": "/Mikechavo/static/media/java.fdabd4e11f1235e4e8e0.png",
@@ -38,11 +39,11 @@
     "static/media/bootstrap.png": "/Mikechavo/static/media/bootstrap.9665c440214bdf00146d.png",
     "index.html": "/Mikechavo/index.html",
     "main.a991355b.css.map": "/Mikechavo/static/css/main.a991355b.css.map",
-    "main.65006ad8.js.map": "/Mikechavo/static/js/main.65006ad8.js.map",
+    "main.04c85f83.js.map": "/Mikechavo/static/js/main.04c85f83.js.map",
     "787.1ed0c42c.chunk.js.map": "/Mikechavo/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a991355b.css",
-    "static/js/main.65006ad8.js"
+    "static/js/main.04c85f83.js"
   ]
 }
