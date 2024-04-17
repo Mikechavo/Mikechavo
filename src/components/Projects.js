@@ -12,6 +12,7 @@ import PalH from '../icons/palHome.png'
 import PcPart from '../icons/pcPart.png'
 import PcTab from '../icons/tabs.png'
 import Flare from '../icons/flare.png'
+import New from '../icons/new.png'
 import '../App.css';
 import PasswordGen from '../components/PasswordGen';
 import TicTacToe from '../components/TicTacToe';
@@ -39,18 +40,27 @@ const Projects = (args) => {
                 🚀 Exciting News! 🚀
                 </CardText>
                 <CardText>
-                 I'm thrilled to share that I'm currently in the process of rebuilding my portfolio website!
+                 I'm thrilled to share that I have rebuilt my portfolio website!
 
-                his time around, I'm diving deep into TypeScript and Tailwind CSS to enhance my skills and take my projects to the next level. 
+                This time around, I'm dove deep into TypeScript and Tailwind CSS to enhance my skills and take my projects to the next level. 
 
                 It's amazing to see how far I've come from my old React.js Bootstrap portfolio. With every line of code, I'm not just building a website – I'm building my future! 
 
-                Stay tuned for updates as I continue this journey of growth and development. Let's code together! 
+              
               </CardText>
             </CardBody>
             <CardBody>
               <Button color="danger" href="https://vetmike.netlify.app/">
                 Live Site</Button>
+                <CardImg
+                alt="Card image cap"
+                src={New}
+                style={{
+                  height: 500
+                }}
+                top
+                width="100%"
+              />
             </CardBody>
           </Card>
         </div>
