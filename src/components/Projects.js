@@ -48,6 +48,9 @@ const Projects = (args) => {
 
               
               </CardText>
+              <CardText>
+              Google Chrome keeps labeling this site a "Dangerous site". This isn't true. Looking for a work around currently. Works fine on edge. 
+              </CardText>
             </CardBody>
             <CardBody>
               <Button color="danger" href="https://vetmike.netlify.app/">
